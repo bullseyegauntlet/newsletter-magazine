@@ -1,0 +1,117 @@
+{
+  "issue": 1,
+  "publishedAt": "2026-04-01T21:00:00Z",
+  "title": "The Briefing",
+  "tagline": "AI intelligence for Gauntlet AI — April 1, 2026",
+  "sources": ["The Batch (DeepLearning.AI)", "ultrathink / Tenex", "Wellfound"],
+  "sections": [
+    {
+      "id": "models",
+      "emoji": "🤖",
+      "label": "Model & Platform Updates",
+      "items": [
+        {
+          "headline": "GPT-5 arrives with 1M-token context and dramatic price cuts",
+          "summary": "OpenAI's GPT-5 ships today with a million-token context window and 80% cost reduction versus GPT-4o. Early benchmarks show near-human performance on bar and medical exams. The model is available immediately via API and ChatGPT Plus.",
+          "source": "The Batch",
+          "url": "https://openai.com/research/gpt-5",
+          "tags": ["OpenAI", "GPT-5"],
+          "featured": true
+        },
+        {
+          "headline": "Anthropic releases Claude 4 Opus with extended thinking mode",
+          "summary": "Claude 4 Opus introduces a new 'extended thinking' mode that allocates additional compute tokens for complex reasoning tasks. Anthropic claims 40% improvement on multi-step coding benchmarks.",
+          "source": "ultrathink / Tenex",
+          "url": "https://anthropic.com/news/claude-4",
+          "tags": ["Anthropic", "Claude"],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "emoji": "🖥️",
+      "label": "Agents & Tools",
+      "items": [
+        {
+          "headline": "Devin 2.0 ships with persistent memory and multi-repo context",
+          "summary": "Cognition's Devin 2.0 update adds cross-session memory, letting the agent remember architectural decisions and team conventions across projects. Also ships: parallel sub-agent spawning for large refactors.",
+          "source": "The Batch",
+          "url": "https://cognition.ai/blog/devin-2",
+          "tags": ["Agents", "Coding"],
+          "featured": false
+        },
+        {
+          "headline": "OpenAI's Operator expands to 40 new countries",
+          "summary": "The web-browsing agent Operator is now available across Europe and Asia-Pacific, with new integrations for airline booking, government portals, and e-commerce checkouts.",
+          "source": "ultrathink / Tenex",
+          "url": "https://openai.com/operator",
+          "tags": ["OpenAI", "Agents"],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "emoji": "🎵",
+      "label": "Music & Creative AI",
+      "highlight": true,
+      "items": [
+        {
+          "headline": "Suno v4 generates full 5-minute tracks with consistent structure",
+          "summary": "Suno's latest model produces coherent verses, choruses, and bridges across full-length tracks — a long-standing weakness of previous versions. Voice cloning for custom vocal styles is now in beta.",
+          "source": "ultrathink / Tenex",
+          "url": "https://suno.com/blog/v4",
+          "tags": ["Suno", "Music Generation"],
+          "featured": false
+        },
+        {
+          "headline": "Udio partners with major labels for AI-assisted songwriter tools",
+          "summary": "Three of the four major labels have signed licensing deals with Udio to co-develop AI-assisted songwriting and production tools for signed artists. A departure from their previous litigation posture.",
+          "source": "The Batch",
+          "url": "https://udio.com/news/label-partnerships",
+          "tags": ["Udio", "Music Industry"],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "workforce",
+      "emoji": "💼",
+      "label": "Workforce & Business",
+      "items": [
+        {
+          "headline": "AI engineering salaries hit $280k median at top-20 tech firms",
+          "summary": "Wellfound's Q1 2026 salary report shows AI-first engineers commanding a $280k median total comp at FAANG+, up 35% YoY. Demand outpaces supply by 4:1 for engineers who can build production agentic systems.",
+          "source": "Wellfound",
+          "url": "https://wellfound.com/reports/ai-salaries-q1-2026",
+          "tags": ["Salaries", "AI Engineering"],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "radar",
+      "emoji": "📅",
+      "label": "On the Radar",
+      "items": [
+        {
+          "headline": "Google I/O 2026 confirmed for May 14 — Gemini Ultra 2 expected",
+          "summary": "Google confirmed the I/O date with a teaser site hinting at Gemini Ultra 2, Android AI integration, and new Workspace AI features. Analysts expect a direct GPT-5 response announcement.",
+          "source": "The Batch",
+          "url": "https://io.google/2026",
+          "tags": ["Google", "Gemini"],
+          "featured": false
+        },
+        {
+          "headline": "EU AI Act enforcement begins April 15 — high-risk system deadline",
+          "summary": "The first enforcement deadline under the EU AI Act hits April 15, requiring high-risk AI system operators to complete conformity assessments. Legal teams across the industry scrambling.",
+          "source": "ultrathink / Tenex",
+          "url": "https://artificialintelligenceact.eu",
+          "tags": ["Regulation", "EU"],
+          "featured": false
+        }
+      ]
+    }
+  ]
+}
