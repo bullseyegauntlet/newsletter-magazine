@@ -1,9 +1,9 @@
 {
   "issue": 1,
-  "publishedAt": "2026-04-01T21:00:00Z",
+  "publishedAt": "2026-04-03T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — April 1, 2026",
-  "sources": ["The Batch (DeepLearning.AI)", "ultrathink / Tenex", "Wellfound"],
+  "tagline": "AI intelligence for Gauntlet AI — April 3, 2026",
+  "sources": ["The Batch / DeepLearning.AI"],
   "sections": [
     {
       "id": "models",
@@ -11,19 +11,19 @@
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "GPT-5 arrives with 1M-token context and dramatic price cuts",
-          "summary": "OpenAI's GPT-5 ships today with a million-token context window and 80% cost reduction versus GPT-4o. Early benchmarks show near-human performance on bar and medical exams. The model is available immediately via API and ChatGPT Plus.",
-          "source": "The Batch",
-          "url": "https://openai.com/research/gpt-5",
-          "tags": ["OpenAI", "GPT-5"],
+          "headline": "Claude Code Source Leak Exposes 512,000 Lines and Unreleased Models",
+          "summary": "Anthropic accidentally shipped a source map with Claude Code v2.1.88 on March 30, letting intern Chaofan Shou decode and publish 512,000 lines across 1,900 files. The code was forked 40,000+ times before Anthropic pulled it. Engineers found references to an unreleased Claude 4.6 variant codenamed 'Capybara' and model 'Numbat,' plus a hidden 'undercover mode' that lets the agent commit to public repos without leaving a signature.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
+          "tags": ["Anthropic", "Claude Code", "security", "leak"],
           "featured": true
         },
         {
-          "headline": "Anthropic releases Claude 4 Opus with extended thinking mode",
-          "summary": "Claude 4 Opus introduces a new 'extended thinking' mode that allocates additional compute tokens for complex reasoning tasks. Anthropic claims 40% improvement on multi-step coding benchmarks.",
-          "source": "ultrathink / Tenex",
-          "url": "https://anthropic.com/news/claude-4",
-          "tags": ["Anthropic", "Claude"],
+          "headline": "OpenAI Kills Sora — Web Access Ends April 26, API Closes September 24",
+          "summary": "OpenAI is shutting down Sora after it burned roughly $1M/day and peaked at 1M daily active users before falling by half. Sora 2 Pro ranks 19th on Artificial Analysis's text-to-video leaderboard, behind ByteDance, Kling, xAI, and Google. The Sora team will redirect to world models and robotics; OpenAI will also consolidate its browser, Codex, and ChatGPT app into a single desktop application.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
+          "tags": ["OpenAI", "Sora", "video generation", "shutdown"],
           "featured": false
         }
       ]
@@ -34,19 +34,19 @@
       "label": "Agents & Tools",
       "items": [
         {
-          "headline": "Devin 2.0 ships with persistent memory and multi-repo context",
-          "summary": "Cognition's Devin 2.0 update adds cross-session memory, letting the agent remember architectural decisions and team conventions across projects. Also ships: parallel sub-agent spawning for large refactors.",
-          "source": "The Batch",
-          "url": "https://cognition.ai/blog/devin-2",
-          "tags": ["Agents", "Coding"],
+          "headline": "Inside Claude Code: 40+ Tool Modules, Swarm Subagents, Three-Tier Memory",
+          "summary": "Analysis of the leaked source reveals Claude Code is built like a small OS: 40+ tools with individual permission gates, subagent swarms with a controller agent, and a three-tier memory system (MEMORY.MD index → Markdown files → JSON transcripts). Upcoming features hiding behind 'false' flags include 'Kairos' — an always-on background agent with an 'autoDream' logic system that prunes and consolidates memory — plus a voice interface and a subagent called 'Ultraplan' for cloud-offloaded heavy tasks.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
+          "tags": ["Claude Code", "Anthropic", "agents", "architecture"],
           "featured": false
         },
         {
-          "headline": "OpenAI's Operator expands to 40 new countries",
-          "summary": "The web-browsing agent Operator is now available across Europe and Asia-Pacific, with new integrations for airline booking, government portals, and e-commerce checkouts.",
-          "source": "ultrathink / Tenex",
-          "url": "https://openai.com/operator",
-          "tags": ["OpenAI", "Agents"],
+          "headline": "TTT-E2E: LLMs That Learn at Inference Keep Latency Flat to 128K Tokens",
+          "summary": "Researchers at Astera Institute, Nvidia, Stanford, UC Berkeley, and UC San Diego introduced Test-Time Training End-to-End (TTT-E2E), a 3-billion-parameter transformer that compresses context into its weights during inference rather than re-attending to the full sequence. On an H100 GPU, latency grew by only 25ms per 1,000 tokens (vs. 12–70ms for a standard transformer) across 8,000–128,000 tokens. Accuracy slightly exceeded a vanilla transformer on most benchmarks, though it struggles on Needle-in-a-Haystack tasks beyond 8K tokens.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
+          "tags": ["research", "LLM", "inference", "long context"],
           "featured": false
         }
       ]
@@ -58,19 +58,11 @@
       "highlight": true,
       "items": [
         {
-          "headline": "Suno v4 generates full 5-minute tracks with consistent structure",
-          "summary": "Suno's latest model produces coherent verses, choruses, and bridges across full-length tracks — a long-standing weakness of previous versions. Voice cloning for custom vocal styles is now in beta.",
-          "source": "ultrathink / Tenex",
-          "url": "https://suno.com/blog/v4",
-          "tags": ["Suno", "Music Generation"],
-          "featured": false
-        },
-        {
-          "headline": "Udio partners with major labels for AI-assisted songwriter tools",
-          "summary": "Three of the four major labels have signed licensing deals with Udio to co-develop AI-assisted songwriting and production tools for signed artists. A departure from their previous litigation posture.",
-          "source": "The Batch",
-          "url": "https://udio.com/news/label-partnerships",
-          "tags": ["Udio", "Music Industry"],
+          "headline": "Google Drops Lyria 3 to 750M+ Gemini Users — Trained on Licensed Music, SynthID Watermarked",
+          "summary": "Google's Lyria 3 is a latent diffusion model that generates 30-second audio clips (MP3/MP4) with instruments, vocals, and lyrics in eight languages from text or image inputs. It's live now on Gemini (free for 18+) and YouTube Shorts via Dream Track. Unlike Suno and Udio — which settled with UMG after copyright suits — Lyria 3's training data is fully licensed, outputs are SynthID-watermarked, and Google filters outputs against existing music to avoid sonic likeness matches. Days after launch, Google acquired ProducerAI (formerly Riffusion) to deepen its professional production lineup.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
+          "tags": ["Google", "Lyria 3", "music generation", "YouTube", "copyright"],
           "featured": false
         }
       ]
@@ -81,11 +73,11 @@
       "label": "Workforce & Business",
       "items": [
         {
-          "headline": "AI engineering salaries hit $280k median at top-20 tech firms",
-          "summary": "Wellfound's Q1 2026 salary report shows AI-first engineers commanding a $280k median total comp at FAANG+, up 35% YoY. Demand outpaces supply by 4:1 for engineers who can build production agentic systems.",
-          "source": "Wellfound",
-          "url": "https://wellfound.com/reports/ai-salaries-q1-2026",
-          "tags": ["Salaries", "AI Engineering"],
+          "headline": "OpenAI–Disney Partnership Effectively Dead as Sora Shuts Down",
+          "summary": "In late 2025, OpenAI announced a high-profile deal with Disney: OpenAI would license Disney characters, train on Disney footage, and Disney would invest up to $1 billion. Disney planned to show Sora-generated content on Disney+ and use it for pre-production and marketing. With Sora's shutdown confirmed, the partnership is effectively over, and OpenAI's Sora team pivots to longer-horizon world model and robotics research.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
+          "tags": ["OpenAI", "Disney", "partnerships", "video AI"],
           "featured": false
         }
       ]
@@ -96,19 +88,19 @@
       "label": "On the Radar",
       "items": [
         {
-          "headline": "Google I/O 2026 confirmed for May 14 — Gemini Ultra 2 expected",
-          "summary": "Google confirmed the I/O date with a teaser site hinting at Gemini Ultra 2, Android AI integration, and new Workspace AI features. Analysts expect a direct GPT-5 response announcement.",
-          "source": "The Batch",
-          "url": "https://io.google/2026",
-          "tags": ["Google", "Gemini"],
+          "headline": "AI Dev 26 Agenda Released — Google DeepMind, Oracle, AMD Speakers Confirmed",
+          "summary": "DeepLearning.AI's AI Dev 26 conference agenda is out, featuring two days of talks, workshops, and demos hosted by Andrew Ng, with teams from Google DeepMind, Oracle, and AMD presenting. The event is a must-watch for AI engineers and practitioners looking to map out the latest in applied AI development.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
+          "tags": ["conference", "AI Dev 26", "DeepLearning.AI"],
           "featured": false
         },
         {
-          "headline": "EU AI Act enforcement begins April 15 — high-risk system deadline",
-          "summary": "The first enforcement deadline under the EU AI Act hits April 15, requiring high-risk AI system operators to complete conformity assessments. Legal teams across the industry scrambling.",
-          "source": "ultrathink / Tenex",
-          "url": "https://artificialintelligenceact.eu",
-          "tags": ["Regulation", "EU"],
+          "headline": "Voice UIs Are Closer Than You Think — Vocal Bridge Offers Free Developer Tools",
+          "summary": "Andrew Ng's editorial this week argues voice UIs will complement (not replace) keyboards and mice, just as touch gestures unlocked a new class of mobile apps. Vocal Bridge, an AI Fund portfolio company led by CEO Ashwyn Sharma, built a dual-agent architecture that keeps foreground conversation latency low while a background agent handles complex agentic workflows. Developers added voice to existing apps in under an hour at a recent DeepLearning.AI + AI Fund hackathon.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://vocalbridge.ai",
+          "tags": ["voice AI", "developer tools", "UX"],
           "featured": false
         }
       ]
