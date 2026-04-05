@@ -1,71 +1,28 @@
 {
-  "issue": 1,
-  "publishedAt": "2026-04-03T21:00:00Z",
+  "issue": 2,
+  "publishedAt": "2026-04-05T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — April 3, 2026",
-  "sources": ["The Batch / DeepLearning.AI"],
+  "tagline": "AI intelligence for Gauntlet AI — April 5, 2026",
+  "sources": ["Wellfound"],
   "sections": [
     {
       "id": "models",
       "emoji": "🤖",
       "label": "Model & Platform Updates",
-      "items": [
-        {
-          "headline": "Claude Code Source Leak Exposes 512,000 Lines and Unreleased Models",
-          "summary": "Anthropic accidentally shipped a source map with Claude Code v2.1.88 on March 30, letting intern Chaofan Shou decode and publish 512,000 lines across 1,900 files. The code was forked 40,000+ times before Anthropic pulled it. Engineers found references to an unreleased Claude 4.6 variant codenamed 'Capybara' and model 'Numbat,' plus a hidden 'undercover mode' that lets the agent commit to public repos without leaving a signature.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
-          "tags": ["Anthropic", "Claude Code", "security", "leak"],
-          "featured": true
-        },
-        {
-          "headline": "OpenAI Kills Sora — Web Access Ends April 26, API Closes September 24",
-          "summary": "OpenAI is shutting down Sora after it burned roughly $1M/day and peaked at 1M daily active users before falling by half. Sora 2 Pro ranks 19th on Artificial Analysis's text-to-video leaderboard, behind ByteDance, Kling, xAI, and Google. The Sora team will redirect to world models and robotics; OpenAI will also consolidate its browser, Codex, and ChatGPT app into a single desktop application.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
-          "tags": ["OpenAI", "Sora", "video generation", "shutdown"],
-          "featured": false
-        }
-      ]
+      "items": []
     },
     {
       "id": "agents",
       "emoji": "🖥️",
       "label": "Agents & Tools",
-      "items": [
-        {
-          "headline": "Inside Claude Code: 40+ Tool Modules, Swarm Subagents, Three-Tier Memory",
-          "summary": "Analysis of the leaked source reveals Claude Code is built like a small OS: 40+ tools with individual permission gates, subagent swarms with a controller agent, and a three-tier memory system (MEMORY.MD index → Markdown files → JSON transcripts). Upcoming features hiding behind 'false' flags include 'Kairos' — an always-on background agent with an 'autoDream' logic system that prunes and consolidates memory — plus a voice interface and a subagent called 'Ultraplan' for cloud-offloaded heavy tasks.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
-          "tags": ["Claude Code", "Anthropic", "agents", "architecture"],
-          "featured": false
-        },
-        {
-          "headline": "TTT-E2E: LLMs That Learn at Inference Keep Latency Flat to 128K Tokens",
-          "summary": "Researchers at Astera Institute, Nvidia, Stanford, UC Berkeley, and UC San Diego introduced Test-Time Training End-to-End (TTT-E2E), a 3-billion-parameter transformer that compresses context into its weights during inference rather than re-attending to the full sequence. On an H100 GPU, latency grew by only 25ms per 1,000 tokens (vs. 12–70ms for a standard transformer) across 8,000–128,000 tokens. Accuracy slightly exceeded a vanilla transformer on most benchmarks, though it struggles on Needle-in-a-Haystack tasks beyond 8K tokens.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
-          "tags": ["research", "LLM", "inference", "long context"],
-          "featured": false
-        }
-      ]
+      "items": []
     },
     {
       "id": "music",
       "emoji": "🎵",
       "label": "Music & Creative AI",
       "highlight": true,
-      "items": [
-        {
-          "headline": "Google Drops Lyria 3 to 750M+ Gemini Users — Trained on Licensed Music, SynthID Watermarked",
-          "summary": "Google's Lyria 3 is a latent diffusion model that generates 30-second audio clips (MP3/MP4) with instruments, vocals, and lyrics in eight languages from text or image inputs. It's live now on Gemini (free for 18+) and YouTube Shorts via Dream Track. Unlike Suno and Udio — which settled with UMG after copyright suits — Lyria 3's training data is fully licensed, outputs are SynthID-watermarked, and Google filters outputs against existing music to avoid sonic likeness matches. Days after launch, Google acquired ProducerAI (formerly Riffusion) to deepen its professional production lineup.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
-          "tags": ["Google", "Lyria 3", "music generation", "YouTube", "copyright"],
-          "featured": false
-        }
-      ]
+      "items": []
     },
     {
       "id": "workforce",
@@ -73,11 +30,19 @@
       "label": "Workforce & Business",
       "items": [
         {
-          "headline": "OpenAI–Disney Partnership Effectively Dead as Sora Shuts Down",
-          "summary": "In late 2025, OpenAI announced a high-profile deal with Disney: OpenAI would license Disney characters, train on Disney footage, and Disney would invest up to $1 billion. Disney planned to show Sora-generated content on Disney+ and use it for pre-production and marketing. With Sora's shutdown confirmed, the partnership is effectively over, and OpenAI's Sora team pivots to longer-horizon world model and robotics research.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
-          "tags": ["OpenAI", "Disney", "partnerships", "video AI"],
+          "headline": "6 Wellfound Signals to Know Before Joining a Startup",
+          "summary": "Wellfound's latest guide breaks down how job seekers can vet startups before applying: dig into founder history under the 'People' tab, scan press mentions for funding/IPO/acquisition signals, check team pages to put faces to names, review exact funding stage and company maturity, scrutinize investor rosters via the 'Funding' tab, and use the 'Culture' tab for perks, photos, and video. The framework also links to Wellfound's startup-vs-corporate guide for candidates deciding which environment suits them.",
+          "source": "Wellfound",
+          "url": "https://wellfound.com/jobs",
+          "tags": ["startups", "hiring", "job search", "culture"],
+          "featured": true
+        },
+        {
+          "headline": "Startup vs. Corporate: Wellfound Lays Out the Trade-offs",
+          "summary": "Wellfound published a companion blog post helping candidates decide between early-to-mid-stage startup life and corporate environments. Key factors: risk tolerance, preference for ownership vs. structure, and how much a candidate values speed of iteration over stability. The post is aimed at the surge of talent now evaluating both AI startups and enterprise AI roles.",
+          "source": "Wellfound",
+          "url": "https://wellfound.com/blog/startup-vs-corporate",
+          "tags": ["startups", "career", "hiring", "workforce"],
           "featured": false
         }
       ]
@@ -88,19 +53,11 @@
       "label": "On the Radar",
       "items": [
         {
-          "headline": "AI Dev 26 Agenda Released — Google DeepMind, Oracle, AMD Speakers Confirmed",
-          "summary": "DeepLearning.AI's AI Dev 26 conference agenda is out, featuring two days of talks, workshops, and demos hosted by Andrew Ng, with teams from Google DeepMind, Oracle, and AMD presenting. The event is a must-watch for AI engineers and practitioners looking to map out the latest in applied AI development.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/claude-codes-source-leaks-openai-exits-video-generation-gemini-adds-music-generation-llms-learn-at-inference",
-          "tags": ["conference", "AI Dev 26", "DeepLearning.AI"],
-          "featured": false
-        },
-        {
-          "headline": "Voice UIs Are Closer Than You Think — Vocal Bridge Offers Free Developer Tools",
-          "summary": "Andrew Ng's editorial this week argues voice UIs will complement (not replace) keyboards and mice, just as touch gestures unlocked a new class of mobile apps. Vocal Bridge, an AI Fund portfolio company led by CEO Ashwyn Sharma, built a dual-agent architecture that keeps foreground conversation latency low while a background agent handles complex agentic workflows. Developers added voice to existing apps in under an hour at a recent DeepLearning.AI + AI Fund hackathon.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://vocalbridge.ai",
-          "tags": ["voice AI", "developer tools", "UX"],
+          "headline": "Wellfound Job Market: AI Startup Roles Still Flowing",
+          "summary": "Wellfound's jobs board continues to list thousands of open roles at AI-native startups, from seed to Series C. With Sora shutting down and talent reshuffling across the industry, now is a good window for teams recruiting AI engineers — candidates with Gauntlet-caliber skills are actively exploring options.",
+          "source": "Wellfound",
+          "url": "https://wellfound.com/jobs",
+          "tags": ["jobs", "AI", "recruiting", "Wellfound"],
           "featured": false
         }
       ]
