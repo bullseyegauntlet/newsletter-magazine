@@ -1,15 +1,24 @@
 {
-  "issue": 2,
-  "publishedAt": "2026-04-05T21:00:00Z",
+  "issue": 3,
+  "publishedAt": "2026-04-08T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — April 5, 2026",
-  "sources": ["Wellfound"],
+  "tagline": "AI intelligence for Gauntlet AI — April 8, 2026",
+  "sources": ["DeepLearning.AI", "Wellfound"],
   "sections": [
     {
       "id": "models",
       "emoji": "🤖",
       "label": "Model & Platform Updates",
-      "items": []
+      "items": [
+        {
+          "headline": "DeepLearning.AI Launches SGLang Inference Course — KV Cache, RadixAttention, Multi-GPU",
+          "summary": "DeepLearning.AI released a new short course, 'Efficient Inference with SGLang: Text and Image Generation,' built with RadixArk and LMSys and taught by Richard Chen. The course addresses the biggest cost driver in LLM deployment — repeated recomputation of shared prompts and system context — by walking learners through building KV cache from scratch, implementing SGLang's RadixAttention to share cache prefixes across users and requests, measuring real performance gains, applying the same principles to diffusion models for faster image generation, and exploring multi-GPU parallelism. By the end, students have hands-on experience with the exact caching strategies used in modern production inference systems.",
+          "source": "DeepLearning.AI",
+          "url": "https://www.deeplearning.ai/short-courses/efficient-inference-with-sglang/",
+          "tags": ["LLM inference", "SGLang", "KV cache", "optimization", "DeepLearning.AI"],
+          "featured": true
+        }
+      ]
     },
     {
       "id": "agents",
@@ -30,19 +39,19 @@
       "label": "Workforce & Business",
       "items": [
         {
-          "headline": "6 Wellfound Signals to Know Before Joining a Startup",
-          "summary": "Wellfound's latest guide breaks down how job seekers can vet startups before applying: dig into founder history under the 'People' tab, scan press mentions for funding/IPO/acquisition signals, check team pages to put faces to names, review exact funding stage and company maturity, scrutinize investor rosters via the 'Funding' tab, and use the 'Culture' tab for perks, photos, and video. The framework also links to Wellfound's startup-vs-corporate guide for candidates deciding which environment suits them.",
+          "headline": "Wellfound's 7-Step Interview Playbook: Prep Tips Straight from Hiring Managers",
+          "summary": "Wellfound's latest newsletter distills interview advice directly from hiring managers at startups. The key moves: research the full company profile including founders, investors, and funding stage; read recent press mentions before the call; put faces to names on the team page; lean into skills that map to the exact job description with quantified examples; show genuine excitement without revealing competing offers or current comp until final rounds; and always ask at least one question. The email also links to Wellfound's salary calculator for comp benchmarking and a startup-vs-corporate trade-offs blog post for candidates weighing their options.",
           "source": "Wellfound",
-          "url": "https://wellfound.com/jobs",
-          "tags": ["startups", "hiring", "job search", "culture"],
-          "featured": true
+          "url": "https://wellfound.com/blog/tell-me-about-yourself-interview-question",
+          "tags": ["hiring", "interviews", "startups", "Wellfound", "career"],
+          "featured": false
         },
         {
           "headline": "Startup vs. Corporate: Wellfound Lays Out the Trade-offs",
-          "summary": "Wellfound published a companion blog post helping candidates decide between early-to-mid-stage startup life and corporate environments. Key factors: risk tolerance, preference for ownership vs. structure, and how much a candidate values speed of iteration over stability. The post is aimed at the surge of talent now evaluating both AI startups and enterprise AI roles.",
+          "summary": "Wellfound published a companion guide helping candidates decide between early-to-mid-stage startup environments and corporate roles. Key decision factors: risk tolerance, preference for ownership vs. structure, and how much a candidate values speed of iteration over stability. The post targets the surge of talent now evaluating both AI startup and enterprise AI positions.",
           "source": "Wellfound",
           "url": "https://wellfound.com/blog/startup-vs-corporate",
-          "tags": ["startups", "career", "hiring", "workforce"],
+          "tags": ["startups", "career", "corporate", "Wellfound"],
           "featured": false
         }
       ]
@@ -53,11 +62,11 @@
       "label": "On the Radar",
       "items": [
         {
-          "headline": "Wellfound Job Market: AI Startup Roles Still Flowing",
-          "summary": "Wellfound's jobs board continues to list thousands of open roles at AI-native startups, from seed to Series C. With Sora shutting down and talent reshuffling across the industry, now is a good window for teams recruiting AI engineers — candidates with Gauntlet-caliber skills are actively exploring options.",
-          "source": "Wellfound",
-          "url": "https://wellfound.com/jobs",
-          "tags": ["jobs", "AI", "recruiting", "Wellfound"],
+          "headline": "Inference Efficiency Is the Next Cost Battle — SGLang Enters the Mainstream",
+          "summary": "With DeepLearning.AI now offering a dedicated SGLang course, inference optimization is moving from research to required engineering skill. RadixAttention — which caches shared prompt prefixes across concurrent users — can dramatically cut per-request GPU cost at scale. Teams building production AI apps should expect candidates to know this stack. Worth tracking: SGLang, vLLM, and the broader LMSys ecosystem as the go-to inference frameworks for 2026.",
+          "source": "DeepLearning.AI",
+          "url": "https://lmsys.org/blog/2024-01-17-sglang/",
+          "tags": ["inference", "SGLang", "LMSys", "GPU", "production AI"],
           "featured": false
         }
       ]
