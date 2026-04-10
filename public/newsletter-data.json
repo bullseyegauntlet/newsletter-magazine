@@ -1,9 +1,9 @@
 {
-  "issue": 3,
-  "publishedAt": "2026-04-08T21:00:00Z",
+  "issue": 4,
+  "publishedAt": "2026-04-10T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — April 8, 2026",
-  "sources": ["DeepLearning.AI", "Wellfound"],
+  "tagline": "AI intelligence for Gauntlet AI — April 10, 2026",
+  "sources": ["The Batch / DeepLearning.AI"],
   "sections": [
     {
       "id": "models",
@@ -11,12 +11,28 @@
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "DeepLearning.AI Launches SGLang Inference Course — KV Cache, RadixAttention, Multi-GPU",
-          "summary": "DeepLearning.AI released a new short course, 'Efficient Inference with SGLang: Text and Image Generation,' built with RadixArk and LMSys and taught by Richard Chen. The course addresses the biggest cost driver in LLM deployment — repeated recomputation of shared prompts and system context — by walking learners through building KV cache from scratch, implementing SGLang's RadixAttention to share cache prefixes across users and requests, measuring real performance gains, applying the same principles to diffusion models for faster image generation, and exploring multi-GPU parallelism. By the end, students have hands-on experience with the exact caching strategies used in modern production inference systems.",
-          "source": "DeepLearning.AI",
-          "url": "https://www.deeplearning.ai/short-courses/efficient-inference-with-sglang/",
-          "tags": ["LLM inference", "SGLang", "KV cache", "optimization", "DeepLearning.AI"],
+          "headline": "Claude Mythos Preview: Anthropic's Most Capable Model Has a Cybersecurity Problem",
+          "summary": "Anthropic unveiled Claude Mythos Preview — not for public sale, but via a 244-page model card and a pre-emptive safety consortium. The model outperforms Claude Opus 4.6, GPT-5.4, and Gemini 3.1 Pro on key benchmarks: 83.1% on CyberGym (vs. 66.6% for Opus 4.6), 82% on Terminal-Bench 2.0, 94.5% on GPQA Diamond, and 64.7% on HLE with tools. The catch: it autonomously discovered \"thousands\" of high-severity vulnerabilities in OS and browser code, including a 27-year-old OpenBSD flaw and a Linux kernel root-access chain — both now patched.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://www.anthropic.com/research/claude-mythos-preview",
+          "tags": ["Anthropic", "Claude", "security", "benchmarks", "LLM"],
           "featured": true
+        },
+        {
+          "headline": "Project Glasswing: $100M in Credits, 40+ Orgs, and a Race to Patch Before Launch",
+          "summary": "To harden infrastructure before Claude Mythos ships commercially, Anthropic assembled Project Glasswing — a consortium including AWS, Apple, CrowdStrike, Google, JPMorganChase, Linux Foundation, Microsoft, Nvidia, and 40+ others. Members get $100M in API credits (at $25/$125 per million input/output tokens) plus $4M in open-source security donations. The goal: find and patch vulnerabilities in critical software before the model goes wide.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://www.anthropic.com/news/project-glasswing",
+          "tags": ["Anthropic", "security", "Glasswing", "open source", "AI safety"],
+          "featured": false
+        },
+        {
+          "headline": "AlphaGenome: Google DeepMind Opens the 98% of DNA We Don't Understand",
+          "summary": "AlphaGenome is an open-weights model that interprets non-coding DNA — the 98% of the human and mouse genome that regulates gene expression rather than encoding proteins. Input 1 million DNA base pairs; get ~6,000 human and ~1,000 mouse gene properties out. It outperformed 9 previous models in 47 of 50 evaluations and correctly predicted T-cell acute lymphoblastic leukemia (T-ALL) protein expression changes. API, weights, and inference code are freely licensed for non-commercial use.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://deepmind.google/discover/blog/alphagenome-ai-for-understanding-the-genome/",
+          "tags": ["DeepMind", "genomics", "biology", "AlphaGenome", "open weights"],
+          "featured": false
         }
       ]
     },
@@ -24,7 +40,24 @@
       "id": "agents",
       "emoji": "🖥️",
       "label": "Agents & Tools",
-      "items": []
+      "items": [
+        {
+          "headline": "Walrus: A 1.3B-Parameter Fluid Dynamics Model That Beats Specialized Solvers",
+          "summary": "Polymathic AI Collaboration released Walrus, a 1.3B-parameter transformer for simulating liquids, gases, and plasmas across 19 physical domains — acoustics, astrophysics, non-Newtonian fluids, and more. Trained on ~8M 2D and ~4M 3D examples, it achieved lowest VRMSE in 18 of 19 domains for one-step predictions and reduced one-step error by an average of 63.6% vs. competing models. Key innovation: random \"jittering\" of input data at each time step to prevent aliasing error accumulation — a technique that may also improve vision transformers. Available under MIT license.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://polymathic-ai.org/blog/walrus",
+          "tags": ["AI for science", "physics simulation", "transformers", "Polymathic AI", "MIT license"],
+          "featured": false
+        },
+        {
+          "headline": "Andrew Ng: The PM Bottleneck Is Now the Real Constraint in Software Engineering",
+          "summary": "In his editor's note, Andrew Ng argues the AI jobpocalypse is overstated — Citadel Research data shows software engineering job postings are actually rising. The real shift: deciding what to build is becoming the bottleneck, not building it. He previews the AI Developer Conference (April 28-29 in SF), themed \"The Future of Software Engineering,\" where open questions include what senior engineer skills look like post-AI and how to organize coding agent workflows.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/the-batch-april-10-2026",
+          "tags": ["software engineering", "AI agents", "future of work", "Andrew Ng", "DeepLearning.AI"],
+          "featured": false
+        }
+      ]
     },
     {
       "id": "music",
@@ -39,19 +72,19 @@
       "label": "Workforce & Business",
       "items": [
         {
-          "headline": "Wellfound's 7-Step Interview Playbook: Prep Tips Straight from Hiring Managers",
-          "summary": "Wellfound's latest newsletter distills interview advice directly from hiring managers at startups. The key moves: research the full company profile including founders, investors, and funding stage; read recent press mentions before the call; put faces to names on the team page; lean into skills that map to the exact job description with quantified examples; show genuine excitement without revealing competing offers or current comp until final rounds; and always ask at least one question. The email also links to Wellfound's salary calculator for comp benchmarking and a startup-vs-corporate trade-offs blog post for candidates weighing their options.",
-          "source": "Wellfound",
-          "url": "https://wellfound.com/blog/tell-me-about-yourself-interview-question",
-          "tags": ["hiring", "interviews", "startups", "Wellfound", "career"],
+          "headline": "AI Is Accelerating Software Jobs, Not Eliminating Them — For Now",
+          "summary": "Citadel Research's new report shows software engineering job postings rising rapidly, even as AI coding agents become ubiquitous. Ng's contrarian take: layoffs attributed to AI are often \"AI washing\" — companies blaming AI for cuts driven by over-hiring and high interest rates. The real impact is uneven: call center roles are genuinely hit hard, while software engineering is expanding. Fresh college grads are struggling, but that's a separate labor market dynamic.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/the-batch-april-10-2026",
+          "tags": ["jobs", "AI impact", "software engineering", "labor market", "Citadel Research"],
           "featured": false
         },
         {
-          "headline": "Startup vs. Corporate: Wellfound Lays Out the Trade-offs",
-          "summary": "Wellfound published a companion guide helping candidates decide between early-to-mid-stage startup environments and corporate roles. Key decision factors: risk tolerance, preference for ownership vs. structure, and how much a candidate values speed of iteration over stability. The post targets the surge of talent now evaluating both AI startup and enterprise AI positions.",
-          "source": "Wellfound",
-          "url": "https://wellfound.com/blog/startup-vs-corporate",
-          "tags": ["startups", "career", "corporate", "Wellfound"],
+          "headline": "AI as a Mirror: How Vision Models Are Changing Self-Image for Blind Users",
+          "summary": "BBC.com published a piece by blind journalist Milagros Costabel on using Be My Eyes (GPT-4 Vision) as a virtual mirror. The model doesn't just describe — it critiques: \"definitely doesn't look like the almost perfect example of reflective skin\" and \"maybe if your jaw was less elongated.\" Psychologists at University of Bristol warn AI beauty assessments can contribute to depression and anxiety, especially for users who can't independently verify AI judgments. Envision AI, Microsoft Seeing AI, Aira Explorer, and Oka are building in this space.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://www.bbc.com/future/article/20260406-the-blind-people-using-ai-as-a-mirror",
+          "tags": ["accessibility", "AI ethics", "vision models", "Be My Eyes", "blind users"],
           "featured": false
         }
       ]
@@ -62,11 +95,19 @@
       "label": "On the Radar",
       "items": [
         {
-          "headline": "Inference Efficiency Is the Next Cost Battle — SGLang Enters the Mainstream",
-          "summary": "With DeepLearning.AI now offering a dedicated SGLang course, inference optimization is moving from research to required engineering skill. RadixAttention — which caches shared prompt prefixes across concurrent users — can dramatically cut per-request GPU cost at scale. Teams building production AI apps should expect candidates to know this stack. Worth tracking: SGLang, vLLM, and the broader LMSys ecosystem as the go-to inference frameworks for 2026.",
-          "source": "DeepLearning.AI",
-          "url": "https://lmsys.org/blog/2024-01-17-sglang/",
-          "tags": ["inference", "SGLang", "LMSys", "GPU", "production AI"],
+          "headline": "AI Developer Conference — April 28-29, San Francisco",
+          "summary": "DeepLearning.AI's AI Dev conference is themed \"The Future of Software Engineering\" with Andrew Ng speaking. This is the conference to watch for signals on where coding agents, team structures, and AI-assisted product development are headed in 2026. Worth tracking for Gauntlet AI's positioning around AI-first engineering talent.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/aidev26",
+          "tags": ["conference", "AI Dev", "DeepLearning.AI", "software engineering", "2026"],
+          "featured": false
+        },
+        {
+          "headline": "Non-Coding DNA Goes Mainstream — AlphaGenome Is a Research Accelerant",
+          "summary": "15 years ago, 98% of the genome was called \"junk DNA.\" AlphaGenome makes that dark matter queryable via API. For biotech and pharma teams building AI-first drug discovery workflows, this is the kind of foundation model that unlocks experiments previously requiring years of wet lab work. Free for non-commercial use; watch for enterprise licensing.",
+          "source": "The Batch / DeepLearning.AI",
+          "url": "https://deepmind.google/discover/blog/alphagenome-ai-for-understanding-the-genome/",
+          "tags": ["biotech", "genomics", "foundation models", "drug discovery", "AlphaGenome"],
           "featured": false
         }
       ]
