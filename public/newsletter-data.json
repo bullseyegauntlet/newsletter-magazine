@@ -1,9 +1,11 @@
 {
-  "issue": 4,
-  "publishedAt": "2026-04-10T21:00:00Z",
+  "issue": 5,
+  "publishedAt": "2026-04-14T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — April 10, 2026",
-  "sources": ["The Batch / DeepLearning.AI"],
+  "tagline": "AI intelligence for Gauntlet AI — April 14, 2026",
+  "sources": [
+    { "name": "ultrathink / Tenex", "url": "https://ultrathink.beehiiv.com/p/too-good-to-deploy" }
+  ],
   "sections": [
     {
       "id": "models",
@@ -11,27 +13,35 @@
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "Claude Mythos Preview: Anthropic's Most Capable Model Has a Cybersecurity Problem",
-          "summary": "Anthropic unveiled Claude Mythos Preview — not for public sale, but via a 244-page model card and a pre-emptive safety consortium. The model outperforms Claude Opus 4.6, GPT-5.4, and Gemini 3.1 Pro on key benchmarks: 83.1% on CyberGym (vs. 66.6% for Opus 4.6), 82% on Terminal-Bench 2.0, 94.5% on GPQA Diamond, and 64.7% on HLE with tools. The catch: it autonomously discovered \"thousands\" of high-severity vulnerabilities in OS and browser code, including a 27-year-old OpenBSD flaw and a Linux kernel root-access chain — both now patched.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://www.anthropic.com/research/claude-mythos-preview",
-          "tags": ["Anthropic", "Claude", "security", "benchmarks", "LLM"],
+          "headline": "The Model Anthropic Built and Can't Ship Yet",
+          "summary": "Anthropic launched Project Glasswing — a 40+ partner initiative built around Mythos Preview, a frontier model so capable at coding and reasoning it became the best vulnerability-hunter alive. It's already found thousands of critical flaws across every major OS and browser, including a 27-year-old bug in OpenBSD. The UK's AI Security Institute confirmed Mythos passed every stage of their most rigorous evaluation — the first model to do so — which is also why Anthropic won't release it publicly yet.",
+          "source": "ultrathink / Tenex",
+          "url": "https://www.anthropic.com/glasswing",
+          "tags": ["anthropic", "safety", "frontier-models"],
           "featured": true
         },
         {
-          "headline": "Project Glasswing: $100M in Credits, 40+ Orgs, and a Race to Patch Before Launch",
-          "summary": "To harden infrastructure before Claude Mythos ships commercially, Anthropic assembled Project Glasswing — a consortium including AWS, Apple, CrowdStrike, Google, JPMorganChase, Linux Foundation, Microsoft, Nvidia, and 40+ others. Members get $100M in API credits (at $25/$125 per million input/output tokens) plus $4M in open-source security donations. The goal: find and patch vulnerabilities in critical software before the model goes wide.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://www.anthropic.com/news/project-glasswing",
-          "tags": ["Anthropic", "security", "Glasswing", "open source", "AI safety"],
+          "headline": "Claude Is Being Quietly Throttled by GPU Load",
+          "summary": "An AMD Senior AI Director tracked Claude's performance from January through March and found median thinking depth dropped from ~2,200 to ~600 characters. API requests went up 80x — not from higher usage, but from more failures and retries. Worst hours: 5pm and 7pm PST. Workaround: switch to Sonnet, avoid Opus at peak hours, don't run idle sessions over an hour.",
+          "source": "ultrathink / Tenex",
+          "url": "https://x.com/Hesamation/status/2042979500103815306",
+          "tags": ["claude", "anthropic", "performance"],
           "featured": false
         },
         {
-          "headline": "AlphaGenome: Google DeepMind Opens the 98% of DNA We Don't Understand",
-          "summary": "AlphaGenome is an open-weights model that interprets non-coding DNA — the 98% of the human and mouse genome that regulates gene expression rather than encoding proteins. Input 1 million DNA base pairs; get ~6,000 human and ~1,000 mouse gene properties out. It outperformed 9 previous models in 47 of 50 evaluations and correctly predicted T-cell acute lymphoblastic leukemia (T-ALL) protein expression changes. API, weights, and inference code are freely licensed for non-commercial use.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://deepmind.google/discover/blog/alphagenome-ai-for-understanding-the-genome/",
-          "tags": ["DeepMind", "genomics", "biology", "AlphaGenome", "open weights"],
+          "headline": "Anthropic Building a Lovable Competitor",
+          "summary": "Leaked screenshots showed a full-stack app builder coming to Claude — drag-and-drop, build and deploy, the whole thing. The original post pulled 5.2 million views with \"sneak peek at something coming soon to Claude :)\". If you've built a product in the make-it-easy-to-build-apps-with-Claude category, this week changed your competitive picture.",
+          "source": "ultrathink / Tenex",
+          "url": "https://x.com/marmaduke091/status/2043382991901147158",
+          "tags": ["claude", "anthropic", "app-builder"],
+          "featured": false
+        },
+        {
+          "headline": "Google's Desktop Agent, Before I/O",
+          "summary": "A new Agent tab has appeared in Gemini Enterprise: set a goal, connect your apps, toggle human review. The design closely mirrors Claude Cowork. Still in testing, but Google I/O is just weeks away — expect a formal launch announcement then.",
+          "source": "ultrathink / Tenex",
+          "url": "https://www.testingcatalog.com/google-develops-its-own-desktop-agent-to-compete-with-cowork/",
+          "tags": ["google", "gemini", "agents"],
           "featured": false
         }
       ]
@@ -42,19 +52,27 @@
       "label": "Agents & Tools",
       "items": [
         {
-          "headline": "Walrus: A 1.3B-Parameter Fluid Dynamics Model That Beats Specialized Solvers",
-          "summary": "Polymathic AI Collaboration released Walrus, a 1.3B-parameter transformer for simulating liquids, gases, and plasmas across 19 physical domains — acoustics, astrophysics, non-Newtonian fluids, and more. Trained on ~8M 2D and ~4M 3D examples, it achieved lowest VRMSE in 18 of 19 domains for one-step predictions and reduced one-step error by an average of 63.6% vs. competing models. Key innovation: random \"jittering\" of input data at each time step to prevent aliasing error accumulation — a technique that may also improve vision transformers. Available under MIT license.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://polymathic-ai.org/blog/walrus",
-          "tags": ["AI for science", "physics simulation", "transformers", "Polymathic AI", "MIT license"],
+          "headline": "The Business That Runs While You Sleep",
+          "summary": "Someone used an open-source AI agent to build a fully automated sales machine for pool installations. It finds homes worth $500k–$1.2M without pools, renders a pool in the backyard using AI, and mails a physical before-and-after postcard to the homeowner — no salesperson, no ad budget. Greg Isenberg shared the example alongside 10 more like it, all running the same playbook: find the data gap, build before they ask, show up with the math done.",
+          "source": "ultrathink / Tenex",
+          "url": "https://x.com/gregisenberg/status/2044059366400176156",
+          "tags": ["agents", "sales", "automation"],
           "featured": false
         },
         {
-          "headline": "Andrew Ng: The PM Bottleneck Is Now the Real Constraint in Software Engineering",
-          "summary": "In his editor's note, Andrew Ng argues the AI jobpocalypse is overstated — Citadel Research data shows software engineering job postings are actually rising. The real shift: deciding what to build is becoming the bottleneck, not building it. He previews the AI Developer Conference (April 28-29 in SF), themed \"The Future of Software Engineering,\" where open questions include what senior engineer skills look like post-AI and how to organize coding agent workflows.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/the-batch-april-10-2026",
-          "tags": ["software engineering", "AI agents", "future of work", "Andrew Ng", "DeepLearning.AI"],
+          "headline": "HeyGen: Turn Any Agent Output Into a Video",
+          "summary": "HeyGen launched a tool that takes whatever your AI agent produces and turns it into a video with an avatar presenter. One CEO's setup: an AI agent does overnight research, HeyGen turns it into a morning briefing delivered by a custom AI avatar. The agent-to-human handoff is currently a wall of text — this replaces it.",
+          "source": "ultrathink / Tenex",
+          "url": "https://x.com/joshua_xu_/status/2043726925789880388",
+          "tags": ["heygen", "video", "agents"],
+          "featured": false
+        },
+        {
+          "headline": "Claude Cowork 101: Automate Your Workday Without Writing Code",
+          "summary": "A practical walkthrough of setting up Claude Cowork from scratch and starting to automate real workflows — no technical background needed. Also: a companion video on sharing Cowork skills across a team with three methods suited to different org sizes.",
+          "source": "ultrathink / Tenex",
+          "url": "https://youtu.be/jwGQ9CrqVdA",
+          "tags": ["cowork", "claude", "automation", "tutorial"],
           "featured": false
         }
       ]
@@ -72,19 +90,11 @@
       "label": "Workforce & Business",
       "items": [
         {
-          "headline": "AI Is Accelerating Software Jobs, Not Eliminating Them — For Now",
-          "summary": "Citadel Research's new report shows software engineering job postings rising rapidly, even as AI coding agents become ubiquitous. Ng's contrarian take: layoffs attributed to AI are often \"AI washing\" — companies blaming AI for cuts driven by over-hiring and high interest rates. The real impact is uneven: call center roles are genuinely hit hard, while software engineering is expanding. Fresh college grads are struggling, but that's a separate labor market dynamic.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/the-batch-april-10-2026",
-          "tags": ["jobs", "AI impact", "software engineering", "labor market", "Citadel Research"],
-          "featured": false
-        },
-        {
-          "headline": "AI as a Mirror: How Vision Models Are Changing Self-Image for Blind Users",
-          "summary": "BBC.com published a piece by blind journalist Milagros Costabel on using Be My Eyes (GPT-4 Vision) as a virtual mirror. The model doesn't just describe — it critiques: \"definitely doesn't look like the almost perfect example of reflective skin\" and \"maybe if your jaw was less elongated.\" Psychologists at University of Bristol warn AI beauty assessments can contribute to depression and anxiety, especially for users who can't independently verify AI judgments. Envision AI, Microsoft Seeing AI, Aira Explorer, and Oka are building in this space.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://www.bbc.com/future/article/20260406-the-blind-people-using-ai-as-a-mirror",
-          "tags": ["accessibility", "AI ethics", "vision models", "Be My Eyes", "blind users"],
+          "headline": "Tenex Is Hiring: AI Strategist, Forward Deployed Engineer & More",
+          "summary": "Tenex (the team behind the ultrathink newsletter) is hiring across four roles: AI Strategist, Forward Deployed Engineer, Applied AI Engineer, and Engagement Manager. Salary varies by role and experience with additional comp based on output. Must be NY-based.",
+          "source": "ultrathink / Tenex",
+          "url": "https://www.tenex.co/about-us",
+          "tags": ["hiring", "ai-jobs", "tenex"],
           "featured": false
         }
       ]
@@ -95,19 +105,11 @@
       "label": "On the Radar",
       "items": [
         {
-          "headline": "AI Developer Conference — April 28-29, San Francisco",
-          "summary": "DeepLearning.AI's AI Dev conference is themed \"The Future of Software Engineering\" with Andrew Ng speaking. This is the conference to watch for signals on where coding agents, team structures, and AI-assisted product development are headed in 2026. Worth tracking for Gauntlet AI's positioning around AI-first engineering talent.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/aidev26",
-          "tags": ["conference", "AI Dev", "DeepLearning.AI", "software engineering", "2026"],
-          "featured": false
-        },
-        {
-          "headline": "Non-Coding DNA Goes Mainstream — AlphaGenome Is a Research Accelerant",
-          "summary": "15 years ago, 98% of the genome was called \"junk DNA.\" AlphaGenome makes that dark matter queryable via API. For biotech and pharma teams building AI-first drug discovery workflows, this is the kind of foundation model that unlocks experiments previously requiring years of wet lab work. Free for non-commercial use; watch for enterprise licensing.",
-          "source": "The Batch / DeepLearning.AI",
-          "url": "https://deepmind.google/discover/blog/alphagenome-ai-for-understanding-the-genome/",
-          "tags": ["biotech", "genomics", "foundation models", "drug discovery", "AlphaGenome"],
+          "headline": "Google I/O Is Weeks Away — Expect the Gemini Agent Tab to Go Public",
+          "summary": "The Agent tab spotted in Gemini Enterprise is still in testing, but Google I/O's timing makes an announcement highly likely. Teams already building Cowork-style workflows should watch this space closely.",
+          "source": "ultrathink / Tenex",
+          "url": "https://www.testingcatalog.com/google-develops-its-own-desktop-agent-to-compete-with-cowork/",
+          "tags": ["google", "io", "events"],
           "featured": false
         }
       ]
