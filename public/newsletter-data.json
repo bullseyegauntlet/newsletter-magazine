@@ -1,11 +1,9 @@
 {
-  "issue": 5,
-  "publishedAt": "2026-04-14T21:00:00Z",
+  "issue": 6,
+  "publishedAt": "2026-04-15T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — April 14, 2026",
-  "sources": [
-    { "name": "ultrathink / Tenex", "url": "https://ultrathink.beehiiv.com/p/too-good-to-deploy" }
-  ],
+  "tagline": "AI intelligence for Gauntlet AI — April 15, 2026",
+  "sources": ["DeepLearning.AI / Data Points", "DeepLearning.AI Courses"],
   "sections": [
     {
       "id": "models",
@@ -13,35 +11,35 @@
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "The Model Anthropic Built and Can't Ship Yet",
-          "summary": "Anthropic launched Project Glasswing — a 40+ partner initiative built around Mythos Preview, a frontier model so capable at coding and reasoning it became the best vulnerability-hunter alive. It's already found thousands of critical flaws across every major OS and browser, including a 27-year-old bug in OpenBSD. The UK's AI Security Institute confirmed Mythos passed every stage of their most rigorous evaluation — the first model to do so — which is also why Anthropic won't release it publicly yet.",
-          "source": "ultrathink / Tenex",
-          "url": "https://www.anthropic.com/glasswing",
-          "tags": ["anthropic", "safety", "frontier-models"],
+          "headline": "Anthropic hits $30B ARR as Claude Managed Agents launches",
+          "summary": "Anthropic released Claude Managed Agents — a platform with pre-built agent harness, sandboxed execution, multi-hour cloud runtime, and monitoring dashboards. Notion demoed it running client onboarding workflows. The launch coincides with Anthropic hitting $30 billion in annualized recurring revenue, triple its December figure, as it races OpenAI toward potential IPOs.",
+          "source": "DeepLearning.AI / Data Points",
+          "url": "https://www.wired.com/",
+          "tags": ["Anthropic", "Claude", "Agents", "Enterprise"],
           "featured": true
         },
         {
-          "headline": "Claude Is Being Quietly Throttled by GPU Load",
-          "summary": "An AMD Senior AI Director tracked Claude's performance from January through March and found median thinking depth dropped from ~2,200 to ~600 characters. API requests went up 80x — not from higher usage, but from more failures and retries. Worst hours: 5pm and 7pm PST. Workaround: switch to Sonnet, avoid Opus at peak hours, don't run idle sessions over an hour.",
-          "source": "ultrathink / Tenex",
-          "url": "https://x.com/Hesamation/status/2042979500103815306",
-          "tags": ["claude", "anthropic", "performance"],
+          "headline": "Nvidia's Ising models bring AI to quantum computing",
+          "summary": "Nvidia released Ising, a family of open AI models targeting two quantum computing bottlenecks: processor calibration and error correction. The calibration model cuts calibration time from days to hours; decoding models run 2.5x faster and 3x more accurately than pyMatching. Partners include Fermilab, Harvard, IQM Quantum Computers, and the UK's National Physical Laboratory.",
+          "source": "DeepLearning.AI / Data Points",
+          "url": "https://www.nvidia.com/",
+          "tags": ["Nvidia", "Quantum Computing", "Open Models"],
           "featured": false
         },
         {
-          "headline": "Anthropic Building a Lovable Competitor",
-          "summary": "Leaked screenshots showed a full-stack app builder coming to Claude — drag-and-drop, build and deploy, the whole thing. The original post pulled 5.2 million views with \"sneak peek at something coming soon to Claude :)\". If you've built a product in the make-it-easy-to-build-apps-with-Claude category, this week changed your competitive picture.",
-          "source": "ultrathink / Tenex",
-          "url": "https://x.com/marmaduke091/status/2043382991901147158",
-          "tags": ["claude", "anthropic", "app-builder"],
+          "headline": "Meta's Muse Spark: a closed small model for AI glasses and social apps",
+          "summary": "Meta announced Muse Spark, a small LLM powering an upgraded Meta AI assistant with two modes (quick answers + deep reasoning) and parallel subagent launches. It features strong multimodal perception built for Meta's AI glasses. Launching on AI glasses in the US immediately, expanding to Instagram, Facebook, Messenger, and WhatsApp in coming weeks.",
+          "source": "DeepLearning.AI / Data Points",
+          "url": "https://about.meta.com/",
+          "tags": ["Meta", "Muse Spark", "AI Glasses", "Multimodal"],
           "featured": false
         },
         {
-          "headline": "Google's Desktop Agent, Before I/O",
-          "summary": "A new Agent tab has appeared in Gemini Enterprise: set a goal, connect your apps, toggle human review. The design closely mirrors Claude Cowork. Still in testing, but Google I/O is just weeks away — expect a formal launch announcement then.",
-          "source": "ultrathink / Tenex",
-          "url": "https://www.testingcatalog.com/google-develops-its-own-desktop-agent-to-compete-with-cowork/",
-          "tags": ["google", "gemini", "agents"],
+          "headline": "OpenAI's GPT-5.4-Cyber: a security model too hot for public release",
+          "summary": "OpenAI expanded its Trusted Access for Cyber (TAC) program to thousands of vetted security professionals. The expansion includes GPT-5.4-Cyber — fine-tuned for defensive cybersecurity with lowered refusals and binary reverse engineering capabilities. Codex Security has already fixed 3,000+ critical and high-severity vulnerabilities across the ecosystem.",
+          "source": "DeepLearning.AI / Data Points",
+          "url": "https://openai.com/",
+          "tags": ["OpenAI", "Cybersecurity", "GPT-5.4"],
           "featured": false
         }
       ]
@@ -52,27 +50,19 @@
       "label": "Agents & Tools",
       "items": [
         {
-          "headline": "The Business That Runs While You Sleep",
-          "summary": "Someone used an open-source AI agent to build a fully automated sales machine for pool installations. It finds homes worth $500k–$1.2M without pools, renders a pool in the backyard using AI, and mails a physical before-and-after postcard to the homeowner — no salesperson, no ad budget. Greg Isenberg shared the example alongside 10 more like it, all running the same playbook: find the data gap, build before they ask, show up with the math done.",
-          "source": "ultrathink / Tenex",
-          "url": "https://x.com/gregisenberg/status/2044059366400176156",
-          "tags": ["agents", "sales", "automation"],
+          "headline": "GitHub Copilot's Rubber Duck: GPT-5.4 reviews Claude's coding decisions",
+          "summary": "GitHub introduced Rubber Duck, an experimental Copilot CLI feature that uses a cross-family model to review coding agent decisions before execution. When Claude is primary, GPT-5.4 independently flags architectural flaws, edge cases, and missed assumptions. Testing on SWE-Bench Pro: Claude Sonnet + Rubber Duck closed 74.7% of the performance gap to Claude Opus alone on 70+ step problems.",
+          "source": "DeepLearning.AI / Data Points",
+          "url": "https://github.com/",
+          "tags": ["GitHub Copilot", "Multi-model", "Code Review", "Agents"],
           "featured": false
         },
         {
-          "headline": "HeyGen: Turn Any Agent Output Into a Video",
-          "summary": "HeyGen launched a tool that takes whatever your AI agent produces and turns it into a video with an avatar presenter. One CEO's setup: an AI agent does overnight research, HeyGen turns it into a morning briefing delivered by a custom AI avatar. The agent-to-human handoff is currently a wall of text — this replaces it.",
-          "source": "ultrathink / Tenex",
-          "url": "https://x.com/joshua_xu_/status/2043726925789880388",
-          "tags": ["heygen", "video", "agents"],
-          "featured": false
-        },
-        {
-          "headline": "Claude Cowork 101: Automate Your Workday Without Writing Code",
-          "summary": "A practical walkthrough of setting up Claude Cowork from scratch and starting to automate real workflows — no technical background needed. Also: a companion video on sharing Cowork skills across a team with three methods suited to different org sizes.",
-          "source": "ultrathink / Tenex",
-          "url": "https://youtu.be/jwGQ9CrqVdA",
-          "tags": ["cowork", "claude", "automation", "tutorial"],
+          "headline": "DeepLearning.AI: Spec-Driven Development with JetBrains — free new course",
+          "summary": "DeepLearning.AI launched a free course on Spec-Driven Development with Coding Agents, built with JetBrains and taught by Paul Everitt. You'll learn to write project constitutions and feature specs that preserve context across agent sessions, apply a plan–implement–verify workflow, and package reusable agent skills. A 7-day Tamagotchi-style build challenge is open through April 22.",
+          "source": "DeepLearning.AI Courses",
+          "url": "https://www.deeplearning.ai/short-courses/spec-driven-development-with-coding-agents/",
+          "tags": ["DeepLearning.AI", "Coding Agents", "Course", "JetBrains"],
           "featured": false
         }
       ]
@@ -90,11 +80,19 @@
       "label": "Workforce & Business",
       "items": [
         {
-          "headline": "Tenex Is Hiring: AI Strategist, Forward Deployed Engineer & More",
-          "summary": "Tenex (the team behind the ultrathink newsletter) is hiring across four roles: AI Strategist, Forward Deployed Engineer, Applied AI Engineer, and Engagement Manager. Salary varies by role and experience with additional comp based on output. Must be NY-based.",
-          "source": "ultrathink / Tenex",
-          "url": "https://www.tenex.co/about-us",
-          "tags": ["hiring", "ai-jobs", "tenex"],
+          "headline": "Andrew Ng: software engineering jobs are rising, not falling — because of AI",
+          "summary": "In his latest Batch letter, Andrew Ng cited a Citadel Research report showing software engineering job postings rising rapidly despite (or because of) coding agents. Ng argues this is encouraging: if software engineering is a harbinger of AI's impact on other professions, expansion here is a positive signal for labor markets overall.",
+          "source": "DeepLearning.AI / Data Points",
+          "url": "https://www.deeplearning.ai/the-batch/",
+          "tags": ["Workforce", "Software Engineering", "Andrew Ng", "Jobs"],
+          "featured": false
+        },
+        {
+          "headline": "OpenAI attacker charged — could face domestic terrorism prosecution",
+          "summary": "A 20-year-old Texas man, Daniel Moreno-Gama, was arrested after throwing a Molotov cocktail at Sam Altman's San Francisco home and attempting to set fire to OpenAI's headquarters. He carried a self-authored anti-AI manifesto. U.S. Attorney Craig Missakian said domestic terrorism charges may apply; the explosives count alone carries 5–20 years mandatory minimum.",
+          "source": "DeepLearning.AI / Data Points",
+          "url": "https://www.reuters.com/",
+          "tags": ["OpenAI", "Security", "AI Safety"],
           "featured": false
         }
       ]
@@ -105,11 +103,19 @@
       "label": "On the Radar",
       "items": [
         {
-          "headline": "Google I/O Is Weeks Away — Expect the Gemini Agent Tab to Go Public",
-          "summary": "The Agent tab spotted in Gemini Enterprise is still in testing, but Google I/O's timing makes an announcement highly likely. Teams already building Cowork-style workflows should watch this space closely.",
-          "source": "ultrathink / Tenex",
-          "url": "https://www.testingcatalog.com/google-develops-its-own-desktop-agent-to-compete-with-cowork/",
-          "tags": ["google", "io", "events"],
+          "headline": "AI Dev 26 × San Francisco — April 28–29 at Pier 48",
+          "summary": "Andrew Ng and DeepLearning.AI are hosting AI Dev 26 in San Francisco, a two-day developer conference April 28–29. Speakers and engineers from Google, AMD, Oracle, Neo4j, Snowflake, and more. 3,000+ engineers, researchers, and builders. Technical talks, hands-on workshops, and live demos. Special discount tickets available.",
+          "source": "DeepLearning.AI / Data Points",
+          "url": "https://www.deeplearning.ai/events/ai-dev-26/",
+          "tags": ["Conference", "AI Dev", "San Francisco"],
+          "featured": false
+        },
+        {
+          "headline": "Claude's Mythos Preview model limited due to security concerns",
+          "summary": "Claude's advanced Mythos Preview model raised security concerns, leading Anthropic to restrict it to limited-release only. The Batch covered this alongside Google's AlphaGenome unveiling 'dark DNA' that regulates genetic expression, and a new dynamic fluids model that solved transformers' pixellation problem.",
+          "source": "DeepLearning.AI / Data Points",
+          "url": "https://www.deeplearning.ai/the-batch/",
+          "tags": ["Claude", "Anthropic", "Research", "Safety"],
           "featured": false
         }
       ]
