@@ -1,9 +1,11 @@
 {
-  "issue": 6,
-  "publishedAt": "2026-04-15T21:00:00Z",
+  "issue": 7,
+  "publishedAt": "2026-04-17T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — April 15, 2026",
-  "sources": ["DeepLearning.AI / Data Points", "DeepLearning.AI Courses"],
+  "tagline": "AI intelligence for Gauntlet AI — April 17, 2026",
+  "sources": [
+    "The Batch @ DeepLearning.AI"
+  ],
   "sections": [
     {
       "id": "models",
@@ -11,35 +13,27 @@
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "Anthropic hits $30B ARR as Claude Managed Agents launches",
-          "summary": "Anthropic released Claude Managed Agents — a platform with pre-built agent harness, sandboxed execution, multi-hour cloud runtime, and monitoring dashboards. Notion demoed it running client onboarding workflows. The launch coincides with Anthropic hitting $30 billion in annualized recurring revenue, triple its December figure, as it races OpenAI toward potential IPOs.",
-          "source": "DeepLearning.AI / Data Points",
-          "url": "https://www.wired.com/",
-          "tags": ["Anthropic", "Claude", "Agents", "Enterprise"],
+          "headline": "Meta Muse Spark: Proprietary Model Challenges Open-Weights Strategy",
+          "summary": "Meta pivoted from open-weights leadership to launch Muse Spark, its first new model in a year. The natively multimodal reasoning model leads in health and multimodal benchmarks but trails in coding and agentic work. Meta enlisted 1,000+ physicians to curate training data, achieving 42.8% on HealthBench Hard — the highest among all tested models. Contemplating mode orchestrates multiple agents in parallel for better performance with comparable latency.",
+          "source": "The Batch",
+          "url": "https://www.deeplearning.ai",
+          "tags": [
+            "multimodal",
+            "reasoning",
+            "closed-source"
+          ],
           "featured": true
         },
         {
-          "headline": "Nvidia's Ising models bring AI to quantum computing",
-          "summary": "Nvidia released Ising, a family of open AI models targeting two quantum computing bottlenecks: processor calibration and error correction. The calibration model cuts calibration time from days to hours; decoding models run 2.5x faster and 3x more accurately than pyMatching. Partners include Fermilab, Harvard, IQM Quantum Computers, and the UK's National Physical Laboratory.",
-          "source": "DeepLearning.AI / Data Points",
-          "url": "https://www.nvidia.com/",
-          "tags": ["Nvidia", "Quantum Computing", "Open Models"],
-          "featured": false
-        },
-        {
-          "headline": "Meta's Muse Spark: a closed small model for AI glasses and social apps",
-          "summary": "Meta announced Muse Spark, a small LLM powering an upgraded Meta AI assistant with two modes (quick answers + deep reasoning) and parallel subagent launches. It features strong multimodal perception built for Meta's AI glasses. Launching on AI glasses in the US immediately, expanding to Instagram, Facebook, Messenger, and WhatsApp in coming weeks.",
-          "source": "DeepLearning.AI / Data Points",
-          "url": "https://about.meta.com/",
-          "tags": ["Meta", "Muse Spark", "AI Glasses", "Multimodal"],
-          "featured": false
-        },
-        {
-          "headline": "OpenAI's GPT-5.4-Cyber: a security model too hot for public release",
-          "summary": "OpenAI expanded its Trusted Access for Cyber (TAC) program to thousands of vetted security professionals. The expansion includes GPT-5.4-Cyber — fine-tuned for defensive cybersecurity with lowered refusals and binary reverse engineering capabilities. Codex Security has already fixed 3,000+ critical and high-severity vulnerabilities across the ecosystem.",
-          "source": "DeepLearning.AI / Data Points",
-          "url": "https://openai.com/",
-          "tags": ["OpenAI", "Cybersecurity", "GPT-5.4"],
+          "headline": "AI Drug Discovery Accelerates Timeline: Insilicom's Rentsertib Enters Phase 2a",
+          "summary": "Insilicom partnered with Eli Lilly on a $2.75B agreement to advance AI-discovered drugs through clinical trials. Rentsertib (for idiopathic pulmonary fibrosis) showed positive Phase 2a results, cutting development time from typical 5–6 years to just 18 months. The company synthesized and tested fewer than 80 compounds — versus 200,000–1M in conventional discovery — demonstrating AI's ability to solve one of science's hardest problems.",
+          "source": "The Batch",
+          "url": "https://www.deeplearning.ai",
+          "tags": [
+            "drug-discovery",
+            "generative-ai",
+            "clinical-trials"
+          ],
           "featured": false
         }
       ]
@@ -50,19 +44,15 @@
       "label": "Agents & Tools",
       "items": [
         {
-          "headline": "GitHub Copilot's Rubber Duck: GPT-5.4 reviews Claude's coding decisions",
-          "summary": "GitHub introduced Rubber Duck, an experimental Copilot CLI feature that uses a cross-family model to review coding agent decisions before execution. When Claude is primary, GPT-5.4 independently flags architectural flaws, edge cases, and missed assumptions. Testing on SWE-Bench Pro: Claude Sonnet + Rubber Duck closed 74.7% of the performance gap to Claude Opus alone on 70+ step problems.",
-          "source": "DeepLearning.AI / Data Points",
-          "url": "https://github.com/",
-          "tags": ["GitHub Copilot", "Multi-model", "Code Review", "Agents"],
-          "featured": false
-        },
-        {
-          "headline": "DeepLearning.AI: Spec-Driven Development with JetBrains — free new course",
-          "summary": "DeepLearning.AI launched a free course on Spec-Driven Development with Coding Agents, built with JetBrains and taught by Paul Everitt. You'll learn to write project constitutions and feature specs that preserve context across agent sessions, apply a plan–implement–verify workflow, and package reusable agent skills. A 7-day Tamagotchi-style build challenge is open through April 22.",
-          "source": "DeepLearning.AI Courses",
-          "url": "https://www.deeplearning.ai/short-courses/spec-driven-development-with-coding-agents/",
-          "tags": ["DeepLearning.AI", "Coding Agents", "Course", "JetBrains"],
+          "headline": "Persona Generators: Synthetic Diversity for Better Market Research",
+          "summary": "Google researchers proposed Persona Generators using AlphaEvolve to create 25 diverse personas covering the full range of human attitudes. Unlike standard persona prompts that generate average responses, this evolutionary approach optimizes for diversity across all desired attitudes and opinions. Tests show 82% coverage of possible responses vs. 76% for Nemotron Personas and 46% for Concordia memory generators.",
+          "source": "The Batch",
+          "url": "https://www.deeplearning.ai",
+          "tags": [
+            "multi-agent",
+            "diversity",
+            "research"
+          ],
           "featured": false
         }
       ]
@@ -71,8 +61,8 @@
       "id": "music",
       "emoji": "🎵",
       "label": "Music & Creative AI",
-      "highlight": true,
-      "items": []
+      "items": [],
+      "highlight": true
     },
     {
       "id": "workforce",
@@ -80,19 +70,15 @@
       "label": "Workforce & Business",
       "items": [
         {
-          "headline": "Andrew Ng: software engineering jobs are rising, not falling — because of AI",
-          "summary": "In his latest Batch letter, Andrew Ng cited a Citadel Research report showing software engineering job postings rising rapidly despite (or because of) coding agents. Ng argues this is encouraging: if software engineering is a harbinger of AI's impact on other professions, expansion here is a positive signal for labor markets overall.",
-          "source": "DeepLearning.AI / Data Points",
-          "url": "https://www.deeplearning.ai/the-batch/",
-          "tags": ["Workforce", "Software Engineering", "Andrew Ng", "Jobs"],
-          "featured": false
-        },
-        {
-          "headline": "OpenAI attacker charged — could face domestic terrorism prosecution",
-          "summary": "A 20-year-old Texas man, Daniel Moreno-Gama, was arrested after throwing a Molotov cocktail at Sam Altman's San Francisco home and attempting to set fire to OpenAI's headquarters. He carried a self-authored anti-AI manifesto. U.S. Attorney Craig Missakian said domestic terrorism charges may apply; the explosives count alone carries 5–20 years mandatory minimum.",
-          "source": "DeepLearning.AI / Data Points",
-          "url": "https://www.reuters.com/",
-          "tags": ["OpenAI", "Security", "AI Safety"],
+          "headline": "US State AI Regulations Create Patchwork Legal Landscape",
+          "summary": "Over 40 US states are enacting AI laws despite federal push for preemption. California's executive order requires invisible watermarks on AI-generated output and AI tool compliance with privacy/civil rights protections (effective August 2026). Colorado requires annual impact assessments and algorithmic discrimination protections for high-risk systems in education, employment, finance, healthcare, and housing. Utah's 2026 bills refine its 2024 AI Policy Act, banning non-consensual deepfakes and restricting health insurance AI denials. New York mandates revenue ≥$500M AI providers block bioweapon/hacking tools starting January 2027.",
+          "source": "The Batch",
+          "url": "https://www.deeplearning.ai",
+          "tags": [
+            "regulation",
+            "policy",
+            "compliance"
+          ],
           "featured": false
         }
       ]
@@ -103,19 +89,15 @@
       "label": "On the Radar",
       "items": [
         {
-          "headline": "AI Dev 26 × San Francisco — April 28–29 at Pier 48",
-          "summary": "Andrew Ng and DeepLearning.AI are hosting AI Dev 26 in San Francisco, a two-day developer conference April 28–29. Speakers and engineers from Google, AMD, Oracle, Neo4j, Snowflake, and more. 3,000+ engineers, researchers, and builders. Technical talks, hands-on workshops, and live demos. Special discount tickets available.",
-          "source": "DeepLearning.AI / Data Points",
-          "url": "https://www.deeplearning.ai/events/ai-dev-26/",
-          "tags": ["Conference", "AI Dev", "San Francisco"],
-          "featured": false
-        },
-        {
-          "headline": "Claude's Mythos Preview model limited due to security concerns",
-          "summary": "Claude's advanced Mythos Preview model raised security concerns, leading Anthropic to restrict it to limited-release only. The Batch covered this alongside Google's AlphaGenome unveiling 'dark DNA' that regulates genetic expression, and a new dynamic fluids model that solved transformers' pixellation problem.",
-          "source": "DeepLearning.AI / Data Points",
-          "url": "https://www.deeplearning.ai/the-batch/",
-          "tags": ["Claude", "Anthropic", "Research", "Safety"],
+          "headline": "AI-Native Engineering Teams Reshape Org Structure",
+          "summary": "AI-native teams operate fundamentally differently from traditional engineering teams. Engineers now play broader product/design/marketing roles, and communication bottlenecks demand co-location for peak execution speed. Smaller teams of generalists outperform large siloed specialists when equipped with AI tools. Teams achieving fastest velocity share engineers who understand both product and engineering, minimizing PM-engineer communication friction.",
+          "source": "The Batch",
+          "url": "https://www.deeplearning.ai",
+          "tags": [
+            "team-structure",
+            "ai-native",
+            "product-management"
+          ],
           "featured": false
         }
       ]
