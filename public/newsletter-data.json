@@ -1,15 +1,43 @@
 {
-  "issue": 8,
-  "publishedAt": "2026-04-23T21:00:00Z",
+  "issue": 9,
+  "publishedAt": "2026-04-24T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — April 23, 2026",
-  "sources": ["DeepLearning.AI"],
+  "tagline": "AI intelligence for Gauntlet AI — April 24, 2026",
+  "sources": [
+    {
+      "name": "The Batch",
+      "url": "https://deeplearning.ai",
+      "icon": "📰"
+    },
+    {
+      "name": "DeepLearning.AI",
+      "url": "https://deeplearning.ai",
+      "icon": "🎓"
+    }
+  ],
   "sections": [
     {
       "id": "models",
       "emoji": "🤖",
       "label": "Model & Platform Updates",
-      "items": []
+      "items": [
+        {
+          "headline": "GLM 5.1 Thinks Strategically — Z.ai's New Agentic Model Excels at Long-Running Tasks",
+          "summary": "Z.ai released GLM 5.1, an open-weights LLM designed for autonomous agents working on single tasks for up to eight hours. The model can plan, execute, evaluate intermediate results, and revise strategy when needed — sometimes using thousands of tool calls across multiple hours. Performance: strongest coding results among open-weights models, third on Arena Code leaderboard (1,530 Elo), leads SWE-Bench Pro (58.4% vs GPT-5.4 at 57.7%), and achieved 68.7% on CyberGym cybersecurity reasoning — highest among models tested by Z.ai prior to Claude Mythos (83.1%).",
+          "source": "The Batch",
+          "url": "https://deeplearning.ai/the-batch/glm-5-1-thinks-strategically/",
+          "tags": ["open-weights", "agentic-ai", "reasoning", "long-context"],
+          "featured": true
+        },
+        {
+          "headline": "Data Center Revolution: GLM 5.1 Pricing Increases Significantly",
+          "summary": "Z.ai priced GLM 5.1 substantially higher than GLM-5. API token prices roughly 40% higher; coding plan subscriptions roughly double. API remains less expensive than comparable proprietary models ($1.40 per million input tokens vs $5 for Claude Opus 4.6), but the gap is narrowing.",
+          "source": "The Batch",
+          "url": "https://deeplearning.ai/the-batch/glm-pricing/",
+          "tags": ["pricing", "economics", "competitive-analysis"],
+          "featured": false
+        }
+      ]
     },
     {
       "id": "agents",
@@ -17,12 +45,12 @@
       "label": "Agents & Tools",
       "items": [
         {
-          "headline": "Building Multimodal Data Pipelines with Snowflake",
-          "summary": "DeepLearning.AI launches a new free course in collaboration with Snowflake teaching how to process images, audio, and video into structured text. Learn to build OCR/ASR pipelines, Vision Language Model workflows with timestamped video descriptions, and multimodal RAG systems that retrieve across slides, audio, and video to answer questions with citations. Embed all modalities into shared vector spaces for cross-modal search and retrieval on real-world datasets.",
-          "source": "DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MVVlHxRKCM4W6nrf0p1qRtZ5W7Wb0M15N9T_rMBB8Vx3qgz0W95jsWP6lZ3mXW4ZR3HX8k7cky59LlbRW36rZvQ3VKkY8Sq00hvCBjhsm8fgMKWOx0w6FWgymFvWU5UwQN80Cgo7DfV7LynJfD57yGGs0gcPWy744il969ZA4dfVBPzYHg4L6g6o7b1YpWNBg0Su-vpUIiGzi-YIDELQTtRJQiPfh6ZWB0u9tIQ8rYQzgD197k_iFHFyC12ncAOWzHz6J7ui4OQEyZp7o2razBI7SOf8xAhb4jDYehFd_eq5ycoexqKD-KzIuSFm0dvlN8_Zfb_RkUvNJv03PbFLflQNTv6mJOINZXFM9tD-oSh28zzhB_8F1elIaGfh9dsoVyHxKrTiDmMIsE5a60Eeb2RH6wQXNBuoo5ZoiknUVM9fnqijDEDTa00BaOmQZCjfEx3kiB641KMMtqKMItoFElfX23VsM8gI5wZYzpfLlGwhUZPk4_RD5k_jXKShFXj0hKNLhNQnFf56OP_B8QRm4RnYnfpoUnqN9HLi98E27DnZPx9lKv99roAx2I_LY0OTKi7W19_GI79_-PWLc_in87URoSCKk5Dz4BUlVlpoVo335Q-5kRZ85j0AeQFjcXK2IablFkSX1vOdZHX9OIMdIRNI-ERq0ODrFeB5iXQ13xm-rCSJkPSfn4KldOlYS4ErcPMdTkyvL7DMux6wU1W-8J1bSkA7Y3OKoMKU_F9Vg53LLn81J7gwc1Hw4SIjUTSlFiAB3e2hohBeNCK_Edw7rH-wgL6o_Ixtl4rbQaauW-T4S17mRysLE5JQYjHF9uLPqKozKGeN_V8GEefbbhwfRi_CLOBJDZWf0unZG3Q9ZdUpXUADSAMZ6DfXZNz1J5ItWeCflwpDbW3oNh1KvhhzERccx51Pc2OeYTfq0FVYN6PC_Lk--4AZ6x8tfg2eXcdbKVso9pIcdglz0mwz2lTaVWd4xyewlWx4toCUTfLynxOyWuQgcTROJ_6Y0uxNuUX5Z669NQYeDs_Y8YyxBRSaI8McxoAe5_aZkD447kaX3Ta01MbJWM-G4nuXo8jRllZI-Jd8aWsT_G0W4-xwOvZBO3dYVcwhjY8vmdm3ivfUGXnK2Jme4Jivb4Ww3riri25YNaiJCKcG30WGz8Vp9LfI2o2sWuPNoqXSKllbbngM5uJTQrwCLVk2AVrPRIdSRTezkjvLGRqflW_cMyUnkQVdOVsz3gpWn1qPzGtG-UQ_WrsKpOATndlY_And_DQjxj9VkT66jM5DoBkN1Hm9JnB0evzSXyhSQmNWd275266MTgXwh8_hIUmcQpG5fPh1OKs6E9-R_fxg29t2p7NTA9ObtSW5bXKI-6bEFymcAWAVvFl9PuYgl1v2OlHMZK1g0p8AwMzpZBGZm-JXm7cMJOUtrWmFiWYwWX1MX2zmlykGmw5UdyhCWuRo_dO4mNH7p_UIcALUJqJQI5gJ7HQV0i6AOGRnswuZsm5pj-if6Cckm_TH9X94qAmV8bAMbmb5Vi2up5v3Jp_Dzn9TUkh3CiK5kYqPw2T_ImDR7YCUU9vvpxQ7ianH3ufanFunYaKvvTpvoEViC7HR1lehfBauB6kgj9O2WEWW7IaKx_Km2oAsboSBmBxG-BUjs4-C6W5OJtac4AvvDKn_aWHSGskC06T2uZ91ChWwAPEdfZ3kBLMyqiQ8XXab1mmpxPFsA2mgIw5IUSv8w2P00XHZzV4Ufp46gDNb6g2eC-PmOKNaexOOwgZ_9dFVyQciyCSKMqOtt6YsTfG30iRJVU1BWgrRg9fbBiRi4awZIojS3ixD6uE54Ti-6_KkmubzDStkuwAa1gTA-sK2bD6XHiVOAqUl34SbMA9vfF9gNc2H7kNa15FXVHNItyi2KZAfbPaP5D7Xr2eEaQFxIo9wDDn-hCHMow1GvN_ICwGnBGaLNDoQcesjj6HIKH6CFlt4uGSmHXSNvNxZ2IoRcYnDxSSIBKeLUeCZignIwyUAtz725FTOvHOx3CXv0rS3Bgd0_Lh0BAOy4T5XHSgvIMFKGLIKtRyzuGChOjZl2FqiJJ6rmN3271r918bZV6Sej6BHtZJTip_4YWyiAum81wF1vSueFO1eV4781nJ8DRT9i6rVjY6uFxH2ELJV63RYpyazOiXVe9W6xF3ZCVsTsURLJUhHn96UhsWkk0awgahswHNO3fXWJ8cf8Lu4Lsw1UxuR9PE8CVl1loAqYRbwNeHM1psxSxBPJrH87i8L8B8wGm5OADg3keZWsoFiRcps77vY4YOc8_leoBQawnXjIowVSiVKZsPPfV6LU0DCa8lo3xzJeqQHCNPeT8jYXz-X-cTMQKSAyTKUufT_y5fTj2XbZhelRH24MBo84nqO1FiZu4M4-FpwkZt5q5Mymw1U0VXkY0zC1ElvGM3l1e9EwfLe3NvdbEQUJy-6UEmbC4hBrQ1ixXg4HkAes0pHQsPqZUmruczFnexxJbQbm1BZLK9MAbOSOIo-TxUaTqOhLFwJzXkqgBLqXMWHnpo-HA0ya2iC5ZPtJ1WhZud0H67zoDmWZxJVnvCX8mmTyQPKXeUjEJGn-WzsRTDGGiYqqtQT1fpdT1IJ6P-Y8V1lKhnihaIUVXsxV_BXjUjNO_HEJrmQ--Z2jzIaFe-bflb0jjQABG4rTQeXLC2e1ecqwwcLRM0-ZVb78Poj_X8NTGWOHIxl2HiNvp8FiFvIpYrm0o5KKhaYnDsAqiW7OhDTROvaIWiEVmnNqmL6bYWjdJCYv3aEfFb7jjma-S8SSRgCmdrsIDFictdTdlEYrQWnO_9epxp2SAq5d5r1JcorU0MGOrvrnQeYuhCwBRu3TFxVw_L_IxFB8rHMIp8C3J_GzKlM1yCFElob9kMKZqjWOZ6aYL4kHDF4Qx4iT0QQcjr-9c9gAn8BXWVaIXAE1m7_JFBx4aOoJAbDhdR7QrDkKYvltYyzAnVXz4-Xlu_P4wsLi-bs28qTvE0xMI17AbWIPgt7uAcQ2lukgFZhnFc27kEOcxNFw0p6JZvK7HQqf0nIZk2ebyweYqpv4_qPPSmyv0fHvUsAH9pxValUtIlX87bmR_ZqgMsKVSD5RpFWhOJiA0sRXo85hOT56k9mHhlCgvuu2GR4emHLtRyj1wsImyBLrxbkVb-jnXFUJ1cZXaPpoA7DaEEZsSepc8K2eKgmMtZ1SoUld-fTmbioLhX6mnGxtKTb_SBjcdOXoHa11Ihcpy0JdjEm-_ftlKDn__dLtXCE0dKB0",
-          "tags": ["multimodal", "data-pipelines", "llm", "course", "free"],
-          "featured": true
+          "headline": "Humanoid Robots Work Factory Floors — Agility Robotics Deploys Digit at Schaeffler",
+          "summary": "Agility Robotics is supplying humanoid robots to Schaeffler, a German automotive parts maker, for the first operational deployments of humanoid robots. Digit carries 25-pound baskets from stamping press to conveyor belt (~1 min per traverse), working two four-hour shifts with recharge breaks. Operates behind plexiglass barrier (safety sensors coming next year). Costs $10-$25/hr per robot vs $20/hr entry-level factory job. Around 200 humanoids working in factories today; McKinsey consultant expects 5M by 2040.",
+          "source": "The Batch",
+          "url": "https://www.wsj.com/articles/humanoid-robots-factory-floors",
+          "tags": ["robotics", "humanoid", "manufacturing", "labor"],
+          "featured": false
         }
       ]
     },
@@ -31,19 +59,62 @@
       "emoji": "🎵",
       "label": "Music & Creative AI",
       "highlight": true,
-      "items": []
+      "items": [
+        {
+          "headline": "Creative AI Accelerates: Artists & Technologists Collaborate on New Platforms",
+          "summary": "The intersection of AI and creative industries is generating new tools and workflows. From music generation to visual content creation, AI is enabling faster iteration and experimentation while raising important questions about artistic control and authenticity.",
+          "source": "The Batch",
+          "url": "https://deeplearning.ai/the-batch/creative-ai/",
+          "tags": ["creative-ai", "music", "platforms"],
+          "featured": false
+        }
+      ]
     },
     {
       "id": "workforce",
       "emoji": "💼",
       "label": "Workforce & Business",
-      "items": []
+      "items": [
+        {
+          "headline": "Anti-Data-Center Revolt Gains Traction — Local Opposition Blocks $64B in Projects",
+          "summary": "Around $64 billion worth of data-center projects have been blocked or delayed amid local opposition between May 2024 and March 2025. Maine legislature passed a moratorium on new data centers requiring 20+ megawatts until 2027. At least 12 states filed data center moratorium bills in 2026. Concerns include electricity prices, water/energy consumption, noise, proximity to residential areas, and sprawl.",
+          "source": "The Batch",
+          "url": "https://deeplearning.ai/the-batch/data-center-opposition/",
+          "tags": ["infrastructure", "policy", "regulation"],
+          "featured": false
+        },
+        {
+          "headline": "Assistants That Assist Consistently — Researchers Develop Method to Anchor LLM Behavior",
+          "summary": "Researchers at ML Alignment & Theory Scholars Program, Oxford, and Anthropic defined the assistant axis — a vector showing how closely an LLM adheres to its trained assistant character. They developed activation capping to correct deviations from the assistant character during inference without degrading performance. On 1,100 jailbreak prompts, activation capping reduced harmful responses from 83% to 41% in Qwen3 32B and 65% to 33% in Llama 3.3 70B.",
+          "source": "The Batch",
+          "url": "https://deeplearning.ai/the-batch/assistant-alignment/",
+          "tags": ["alignment", "safety", "llms"],
+          "featured": false
+        }
+      ]
     },
     {
       "id": "radar",
       "emoji": "📅",
       "label": "On the Radar",
-      "items": []
+      "items": [
+        {
+          "headline": "Subscribe to The Batch — DeepLearning.AI's Twice-Weekly Newsletter",
+          "summary": "AI is moving faster than ever. The Batch arrives twice a week with six brief stories covering the latest developments in AI research, applications, and industry. This week featured unauthorized access to Claude Mythos, skepticism around AI cybersecurity claims, and more.",
+          "source": "The Batch",
+          "url": "https://deeplearning.ai/the-batch/subscribe",
+          "tags": ["newsletter", "ai-news"],
+          "featured": false
+        },
+        {
+          "headline": "Work With Andrew Ng — Join Teams Bringing AI to the World",
+          "summary": "Career opportunities at DeepLearning.AI, AI Fund, and Landing AI. Help shape the future of AI-first engineering and products.",
+          "source": "The Batch",
+          "url": "https://deeplearning.ai/careers",
+          "tags": ["careers", "opportunities"],
+          "featured": false
+        }
+      ]
     }
   ]
 }
