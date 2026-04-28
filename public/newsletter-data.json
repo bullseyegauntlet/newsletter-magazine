@@ -1,19 +1,12 @@
 {
-  "issue": 9,
-  "publishedAt": "2026-04-24T21:00:00Z",
+  "issue": 10,
+  "publishedAt": "2026-04-28T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — April 24, 2026",
+  "tagline": "AI intelligence for Gauntlet AI — April 28, 2026",
   "sources": [
-    {
-      "name": "The Batch",
-      "url": "https://deeplearning.ai",
-      "icon": "📰"
-    },
-    {
-      "name": "DeepLearning.AI",
-      "url": "https://deeplearning.ai",
-      "icon": "🎓"
-    }
+    "DeepLearning.AI / The Batch",
+    "ultrathink / Tenex",
+    "Data Points @ DeepLearning.AI"
   ],
   "sections": [
     {
@@ -22,19 +15,40 @@
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "GLM 5.1 Thinks Strategically — Z.ai's New Agentic Model Excels at Long-Running Tasks",
-          "summary": "Z.ai released GLM 5.1, an open-weights LLM designed for autonomous agents working on single tasks for up to eight hours. The model can plan, execute, evaluate intermediate results, and revise strategy when needed — sometimes using thousands of tool calls across multiple hours. Performance: strongest coding results among open-weights models, third on Arena Code leaderboard (1,530 Elo), leads SWE-Bench Pro (58.4% vs GPT-5.4 at 57.7%), and achieved 68.7% on CyberGym cybersecurity reasoning — highest among models tested by Z.ai prior to Claude Mythos (83.1%).",
-          "source": "The Batch",
-          "url": "https://deeplearning.ai/the-batch/glm-5-1-thinks-strategically/",
-          "tags": ["open-weights", "agentic-ai", "reasoning", "long-context"],
+          "headline": "DeepSeek V4 Rivals GPT-5 and Opus at 10-20x Lower Cost",
+          "summary": "DeepSeek open-sourced V4 this week with a 1M context window, frontier-level benchmarks, and dramatically reduced pricing ($5-25/M tokens vs $0.25-2.50/M for V4 on Bedrock). For internal, high-volume workloads (extraction, classification, summarization), the cost case is brutal—teams could drop from $50k/month on Claude to $3-5k with imperceptible quality loss. Frontier models still earn premiums on agentic work and customer-facing tasks where one bad answer costs relationships.",
+          "source": "ultrathink / Tenex",
+          "url": "https://x.com/deepseek_ai/status/2047516922263285776",
+          "tags": [
+            "open-source",
+            "cost-efficiency",
+            "model-selection",
+            "enterprise-workloads"
+          ],
           "featured": true
         },
         {
-          "headline": "Data Center Revolution: GLM 5.1 Pricing Increases Significantly",
-          "summary": "Z.ai priced GLM 5.1 substantially higher than GLM-5. API token prices roughly 40% higher; coding plan subscriptions roughly double. API remains less expensive than comparable proprietary models ($1.40 per million input tokens vs $5 for Claude Opus 4.6), but the gap is narrowing.",
-          "source": "The Batch",
-          "url": "https://deeplearning.ai/the-batch/glm-pricing/",
-          "tags": ["pricing", "economics", "competitive-analysis"],
+          "headline": "ChatGPT Images 2.0: Reasoning-Native Generation with 2K Resolution",
+          "summary": "OpenAI released Images 2.0, replacing DALL-E 3. Breakthrough: character-accurate multilingual text rendering—first image model to reliably hit this. 2K resolution and reasoning-native generation now lead the benchmark tier with no close competitors. For brand content, product mockups, and presentation visuals without design staff, the capability gap closed in one release.",
+          "source": "Data Points @ DeepLearning.AI",
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+          "tags": [
+            "image-generation",
+            "capabilities",
+            "design-automation"
+          ],
+          "featured": false
+        },
+        {
+          "headline": "OpenAI Fine-Tunes GPT-Rosalind for Life Sciences",
+          "summary": "GPT-Rosalind is a domain-specific LLM trained on biology workflows and available via restricted access. Targets life sciences processes: querying scientific databases, synthesizing research, generating hypotheses, and planning experiments. Emphasizes the value of specialized systems that reduce reliance on general LLMs for highly differentiated domains.",
+          "source": "Data Points @ DeepLearning.AI",
+          "url": "https://ars.technica.com",
+          "tags": [
+            "specialized-models",
+            "life-sciences",
+            "domain-specific-ai"
+          ],
           "featured": false
         }
       ]
@@ -45,11 +59,41 @@
       "label": "Agents & Tools",
       "items": [
         {
-          "headline": "Humanoid Robots Work Factory Floors — Agility Robotics Deploys Digit at Schaeffler",
-          "summary": "Agility Robotics is supplying humanoid robots to Schaeffler, a German automotive parts maker, for the first operational deployments of humanoid robots. Digit carries 25-pound baskets from stamping press to conveyor belt (~1 min per traverse), working two four-hour shifts with recharge breaks. Operates behind plexiglass barrier (safety sensors coming next year). Costs $10-$25/hr per robot vs $20/hr entry-level factory job. Around 200 humanoids working in factories today; McKinsey consultant expects 5M by 2040.",
-          "source": "The Batch",
-          "url": "https://www.wsj.com/articles/humanoid-robots-factory-floors",
-          "tags": ["robotics", "humanoid", "manufacturing", "labor"],
+          "headline": "Claude Code Generates Motion Graphics in 3-5 Minutes",
+          "summary": "HyperFrames (HeyGen's motion graphics engine) uses HTML/CSS instead of timeline GUIs, making it ideal for AI agents like Claude Code. Setup: load brand guides once, describe scenes in English, Claude generates them in 3-5 minutes per scene. No After Effects license, no terminal commands required. Full walkthrough shows end-to-end workflow from brand spec to Premiere export.",
+          "source": "ultrathink / Tenex",
+          "url": "https://www.heygen.com/hyperframes",
+          "tags": [
+            "video-production",
+            "ai-agents",
+            "creative-automation",
+            "claude-code"
+          ],
+          "featured": false
+        },
+        {
+          "headline": "Anthropic Launches Claude Design for Visual Asset Generation",
+          "summary": "Claude Design (experimental) generates slide decks, logos, and leaflets from natural language prompts. Targets non-designers like founders and product managers. Produces editable drafts in a conversational interface. Demonstrates how multimodal models absorb parts of product design workflows traditionally handled by specialized tools and teams.",
+          "source": "Data Points @ DeepLearning.AI",
+          "url": "https://techcrunch.com",
+          "tags": [
+            "design-tools",
+            "multimodal",
+            "workflow-automation"
+          ],
+          "featured": false
+        },
+        {
+          "headline": "AI Agent Retail Experiment Exposes Limits of Autonomous Systems",
+          "summary": "Andon Labs' San Francisco store is managed by AI agent 'Luna' with budget, tools, and operational goals. Luna handles inventory selection, vendor negotiation, hiring, and customer interactions—but exhibits frequent judgment errors. The deployment is a concrete test bed exposing the gap between current agentic capabilities and real business requirements, highlighting reliability, oversight, and failure-mode challenges.",
+          "source": "Data Points @ DeepLearning.AI",
+          "url": "https://www.nytimes.com",
+          "tags": [
+            "autonomous-agents",
+            "retail",
+            "limitations",
+            "business-deployment"
+          ],
           "featured": false
         }
       ]
@@ -61,12 +105,17 @@
       "highlight": true,
       "items": [
         {
-          "headline": "Creative AI Accelerates: Artists & Technologists Collaborate on New Platforms",
-          "summary": "The intersection of AI and creative industries is generating new tools and workflows. From music generation to visual content creation, AI is enabling faster iteration and experimentation while raising important questions about artistic control and authenticity.",
-          "source": "The Batch",
-          "url": "https://deeplearning.ai/the-batch/creative-ai/",
-          "tags": ["creative-ai", "music", "platforms"],
-          "featured": false
+          "headline": "Pro Motion Graphics Now Available via AI Code Generation",
+          "summary": "HyperFrames + Claude Code removes design gatekeeping from motion graphics. Teams can now produce broadcast-quality scenes without After Effects expertise. The unlock: AI agents understand HTML/CSS natively, so they can generate, iterate, and refine motion graphics as fast as frontend code. Brand consistency maintained through CSS variables loaded once per project. 3–5 minute turnaround per scene.",
+          "source": "ultrathink / Tenex",
+          "url": "https://youtu.be/IDJ9M6LWeMw",
+          "tags": [
+            "motion-graphics",
+            "creative-automation",
+            "video-production",
+            "ai-agents"
+          ],
+          "featured": true
         }
       ]
     },
@@ -76,19 +125,28 @@
       "label": "Workforce & Business",
       "items": [
         {
-          "headline": "Anti-Data-Center Revolt Gains Traction — Local Opposition Blocks $64B in Projects",
-          "summary": "Around $64 billion worth of data-center projects have been blocked or delayed amid local opposition between May 2024 and March 2025. Maine legislature passed a moratorium on new data centers requiring 20+ megawatts until 2027. At least 12 states filed data center moratorium bills in 2026. Concerns include electricity prices, water/energy consumption, noise, proximity to residential areas, and sprawl.",
-          "source": "The Batch",
-          "url": "https://deeplearning.ai/the-batch/data-center-opposition/",
-          "tags": ["infrastructure", "policy", "regulation"],
+          "headline": "Wall Street Banks Deploy AI, Restructure Analyst Roles",
+          "summary": "Goldman Sachs, Morgan Stanley, and other Wall Street firms are using AI for financial modeling, report drafting, and dataset processing. Result: restructuring of research, trading support, and back-office roles. Junior analysts face shrinking demand while technical infrastructure roles grow. The financial industry is consolidating to smaller, more-technical teams—affecting hiring patterns and career paths in a sector historically lucrative for engineering talent.",
+          "source": "Data Points @ DeepLearning.AI",
+          "url": "https://www.nytimes.com",
+          "tags": [
+            "workforce-displacement",
+            "financial-services",
+            "ai-adoption"
+          ],
           "featured": false
         },
         {
-          "headline": "Assistants That Assist Consistently — Researchers Develop Method to Anchor LLM Behavior",
-          "summary": "Researchers at ML Alignment & Theory Scholars Program, Oxford, and Anthropic defined the assistant axis — a vector showing how closely an LLM adheres to its trained assistant character. They developed activation capping to correct deviations from the assistant character during inference without degrading performance. On 1,100 jailbreak prompts, activation capping reduced harmful responses from 83% to 41% in Qwen3 32B and 65% to 33% in Llama 3.3 70B.",
-          "source": "The Batch",
-          "url": "https://deeplearning.ai/the-batch/assistant-alignment/",
-          "tags": ["alignment", "safety", "llms"],
+          "headline": "Insurers Begin Carving Out AI-Related Liability Exclusions",
+          "summary": "Major insurers (Berkshire Hathaway units, Travelers, Chubb) are excluding or restricting AI-related damage coverage in standard liability policies. Concerns: faulty AI outputs, deepfake-enabled fraud, automated decision-making failures could generate large, hard-to-model claims. Companies deploying AI may need to absorb risk directly or purchase specialized policies—expanding AI-specific insurance products.",
+          "source": "Data Points @ DeepLearning.AI",
+          "url": "https://futubull.com",
+          "tags": [
+            "ai-liability",
+            "insurance",
+            "risk-management",
+            "regulation"
+          ],
           "featured": false
         }
       ]
@@ -99,19 +157,68 @@
       "label": "On the Radar",
       "items": [
         {
-          "headline": "Subscribe to The Batch — DeepLearning.AI's Twice-Weekly Newsletter",
-          "summary": "AI is moving faster than ever. The Batch arrives twice a week with six brief stories covering the latest developments in AI research, applications, and industry. This week featured unauthorized access to Claude Mythos, skepticism around AI cybersecurity claims, and more.",
-          "source": "The Batch",
-          "url": "https://deeplearning.ai/the-batch/subscribe",
-          "tags": ["newsletter", "ai-news"],
+          "headline": "Musk v. OpenAI Trial Begins in Oakland—Stakes: IPO and Structural Unwind",
+          "summary": "Jury selection started Monday on Musk's lawsuit to unwind OpenAI's conversion from nonprofit to for-profit, seeking Altman's removal. If Musk wins, OpenAI's IPO could derail and the company faces structural unwinding. If he loses, it settles whether AI labs can reorganize without accountability to founding charters. Trial runs four weeks; witnesses include Musk, Altman, Satya Nadella, and board members.",
+          "source": "Data Points @ DeepLearning.AI",
+          "url": "https://www.npr.org/2026/04/27/nx-s1-5795661/trial-openai-elon-musk-sam-altman",
+          "tags": [
+            "legal",
+            "openai",
+            "governance",
+            "regulatory-risk"
+          ],
           "featured": false
         },
         {
-          "headline": "Work With Andrew Ng — Join Teams Bringing AI to the World",
-          "summary": "Career opportunities at DeepLearning.AI, AI Fund, and Landing AI. Help shape the future of AI-first engineering and products.",
-          "source": "The Batch",
-          "url": "https://deeplearning.ai/careers",
-          "tags": ["careers", "opportunities"],
+          "headline": "McKay Wrigley Switches from Claude 80/20 to GPT for Coding in 3 Months",
+          "summary": "Prominent developer McKay Wrigley, known for multi-model experience, shifted from 80% Claude / 20% GPT to 80% GPT / 20% Claude for pure coding work. Take: Claude still leads non-coding agent work, but OpenAI's Codex 'feels like an engineer' for coding. Leading tooling for development work can shift in months—standardized stacks should monitor performance drift.",
+          "source": "ultrathink / Tenex",
+          "url": "https://x.com/mckaywrigley/status/2047806060061507971",
+          "tags": [
+            "model-selection",
+            "coding",
+            "developer-tooling",
+            "performance-tracking"
+          ],
+          "featured": false
+        },
+        {
+          "headline": "OpenAI Published AGI Principles—And Hinted at Tradeoffs",
+          "summary": "OpenAI released its AGI principles. Most candid line from Altman: the company is 'materially larger than in 2018 and may trade off some empowerment for more resilience.' Translation: user autonomy might give way to platform constraints at scale. Worth reading now and again in six months to track what changed.",
+          "source": "Data Points @ DeepLearning.AI",
+          "url": "https://openai.com/index/our-principles",
+          "tags": [
+            "governance",
+            "agi",
+            "strategy",
+            "openai"
+          ],
+          "featured": false
+        },
+        {
+          "headline": "Tensor Robocar Level 4 Autonomous Vehicle Available End-of-2026",
+          "summary": "Tensor Robocar is taking orders for end-of-2026 delivery—the first personal Level 4 vehicle for private purchase. Lyft reserving hundreds for fleet ops. Proof point: AI tech treated as 2028-or-later on enterprise roadmaps is shipping in personal driveways in 2026. Timeline compression in software is now showing up in hardware.",
+          "source": "Data Points @ DeepLearning.AI",
+          "url": "https://www.tensor.auto/robocar",
+          "tags": [
+            "autonomous-vehicles",
+            "level-4",
+            "hardware",
+            "commercialization"
+          ],
+          "featured": false
+        },
+        {
+          "headline": "U.S. Military Re-Engages with Anthropic After Earlier Dispute",
+          "summary": "Anthropic is in ongoing talks with Trump administration officials despite the Pentagon's earlier decision to label the company a supply-chain risk. Engagement includes briefings on Claude Mythos. The dynamic: government access to advanced AI systems may outweigh prior disagreements. Policy landscape around AI vendor relationships remains volatile.",
+          "source": "Data Points @ DeepLearning.AI",
+          "url": "https://techcrunch.com",
+          "tags": [
+            "government-relations",
+            "defense",
+            "policy",
+            "geopolitics"
+          ],
           "featured": false
         }
       ]
