@@ -1,83 +1,143 @@
 {
-  "issue": 11,
-  "publishedAt": "2026-05-02T21:00:00Z",
+  "issue": 12,
+  "publishedAt": "2026-05-04T21:00:54.012414+00:00",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — May 2, 2026",
+  "tagline": "AI intelligence for Gauntlet AI \u2014 May 4, 2026",
   "sources": [
-    "The Batch @ DeepLearning.AI"
+    "DeepLearning.AI",
+    "The Verge",
+    "Nvidia",
+    "VentureBeat",
+    "OpenAI",
+    "IBM"
   ],
   "sections": [
     {
       "id": "models",
-      "emoji": "🤖",
+      "emoji": "\ud83e\udd16",
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "GPT-5.5 Sets New SOTA on Reasoning Benchmarks",
-          "summary": "OpenAI's latest flagship model GPT-5.5 achieves top-tier scores on Artificial Analysis Intelligence Index and ARC-AGI-2, outperforming competitors on reasoning tasks. However, it shows higher hallucination rates than some peers on knowledge recall benchmarks, particularly the AA-Omniscience Index which penalizes confident errors.",
-          "source": "The Batch @ DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VWRN916XJLL5W6jHm_42B6CSSW8LzBkh5Ny37w",
-          "tags": ["gpt-5.5", "reasoning", "benchmark"],
+          "headline": "Nvidia unveils Nemotron 3 Nano Omni multimodal model",
+          "summary": "Nvidia released Nemotron 3 Nano Omni, a 30-billion-parameter mixture-of-experts open-weights multimodal model consolidating vision, audio, and language processing into a single system for AI agents. It achieves up to 9x higher throughput than competing open models while maintaining interactive responsiveness, addressing a real bottleneck in agent systems. The model tops six leaderboards for document intelligence and video/audio understanding. Launched April 28 via Hugging Face, OpenRouter, and 25+ partner platforms with early adoption from Palantir, H Company, Foxconn, and others building production agents.",
+          "source": "Nvidia",
+          "url": "https://nvidia.com",
+          "tags": [
+            "model-release",
+            "multimodal",
+            "agents"
+          ],
           "featured": true
         },
         {
-          "headline": "Kimi K2.6 Leads Open-Weight Models in Agentic Capabilities",
-          "summary": "Moonshot AI's updated Kimi model handles longer autonomous coding sessions and scales multi-agent orchestration. On the Artificial Analysis Intelligence Index, Kimi K2.6 (54 points) leads open-weight models but trails GPT-5.5 (60 points) and Claude Opus 4.7 (57 points). On Arena.ai's Code Arena WebDev rankings, it places sixth among 67 models.",
-          "source": "The Batch @ DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VWRN916XJLL5W6jHm_42B6CSSW8LzBkh5Ny37w",
-          "tags": ["kimi-k2.6", "open-weights", "agents"],
+          "headline": "xAI updates Grok with lower prices and expanded context handling",
+          "summary": "xAI shipped Grok 4.3 at $1.25 per million input tokens\u2014approximately 37.5% cheaper than Grok 4.2. The model runs reasoning permanently rather than as an optional mode, and handles a one-million-token context window. It can autonomously generate Excel spreadsheets, PDFs, and PowerPoint decks, plus access web search and code execution. On benchmarks, Grok 4.3 still lags OpenAI and Anthropic's latest models, though it improves over its predecessor. xAI also released Custom Voices for voice cloning and the voice agent API at $3/hr (US only, outside Illinois).",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com",
+          "tags": [
+            "pricing",
+            "features",
+            "voice-ai"
+          ],
+          "featured": false
+        },
+        {
+          "headline": "OpenAI publishes operating principles on path to AGI",
+          "summary": "OpenAI published a statement of operating principles to guide its work toward artificial general intelligence: democratization (resisting power consolidation), empowerment (enabling users to accomplish valuable tasks), universal prosperity (ensuring broad economic benefit), resilience (collaborating on safety and societal risks), and adaptability (updating positions as technology evolves). The company explicitly flags that future trade-offs may force it to prioritize resilience over empowerment. The statement reveals reasoning behind unusual business decisions\u2014massive compute spending despite modest revenue, vertical integration, and global datacenter expansion\u2014which OpenAI frames as expressions of belief in universal prosperity rather than standard growth tactics.",
+          "source": "OpenAI",
+          "url": "https://openai.com",
+          "tags": [
+            "philosophy",
+            "strategy",
+            "agi"
+          ],
+          "featured": false
+        },
+        {
+          "headline": "IBM releases Granite 4.1 model suite with multilingual and multimodal variants",
+          "summary": "IBM released Granite 4.1, a collection spanning language, vision, speech, embedding, and safety models\u2014its broadest model release to date. Language models come in 3B, 8B, and 30B parameter sizes, and IBM claims the new 8B instruct model matches or beats its previous 32B mixture-of-experts model, a meaningful efficiency jump for teams watching inference costs. All three are trained on roughly 15 trillion tokens with a multi-stage reinforcement learning pipeline separately targeting instruction following, conversation quality, and mathematical reasoning. The speech line includes a non-autoregressive variant (Granite Speech 4.1 2B NAR) generating entire sequences at once rather than one token at a time, trading some transcription features for substantially higher GPU throughput. Granite Guardian 4.1 expands the prior guardrail model's risk taxonomy and is designed to run alongside any LLM\u2014open or proprietary\u2014as an inline safety layer. All models released under Apache 2.0.",
+          "source": "IBM",
+          "url": "https://ibm.com",
+          "tags": [
+            "model-release",
+            "multilingual",
+            "efficiency"
+          ],
           "featured": false
         }
       ]
     },
     {
       "id": "agents",
-      "emoji": "🖥️",
+      "emoji": "\ud83d\udda5\ufe0f",
       "label": "Agents & Tools",
       "items": [
         {
-          "headline": "Strategic Thinking Differs Between LLMs and Humans",
-          "summary": "Researchers from UT Austin and Google found that LLMs like GPT-5.1 and Gemini 2.5 Pro model opponents more systematically than humans in rock-paper-scissors, tracking sequential patterns rather than just the opponent's last move. This demonstrates LLMs encode game strategies more thoroughly, revealing functional differences in decision-making algorithms.",
-          "source": "The Batch @ DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VWRN916XJLL5W6jHm_42B6CSSW8LzBkh5Ny37w",
-          "tags": ["strategy", "reasoning", "llm-vs-human"],
+          "headline": "Nemotron 3 Nano Omni powers production agent deployment",
+          "summary": "Nvidia's Nemotron 3 Nano Omni consolidates multimodal processing for AI agents with 9x throughput improvements over competitors. Already in production use at Palantir and others.",
+          "source": "Nvidia",
+          "url": "https://nvidia.com",
+          "tags": [
+            "agents",
+            "multimodal",
+            "efficiency"
+          ],
           "featured": false
         }
       ]
     },
     {
       "id": "music",
-      "emoji": "🎵",
+      "emoji": "\ud83c\udfb5",
       "label": "Music & Creative AI",
       "highlight": true,
       "items": []
     },
     {
       "id": "workforce",
-      "emoji": "💼",
+      "emoji": "\ud83d\udcbc",
       "label": "Workforce & Business",
       "items": [
         {
-          "headline": "Big AI's Climate Commitments Under Strain",
-          "summary": "Alphabet, Amazon, Meta, and Microsoft acknowledge that meeting AI demand is interfering with earlier climate pledges. While investing in renewables, they're building natural gas plants to meet rapid demand, with emissions rising significantly (54-60% increases since 2020). The tension between clean energy goals and scale-up needs is forcing companies toward fossil fuels in the near term.",
-          "source": "The Batch @ DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VWRN916XJLL5W6jHm_42B6CSSW8LzBkh5Ny37w",
-          "tags": ["climate", "energy", "sustainability"],
+          "headline": "Tech giants acknowledge AI's environmental strain, challenging CO2 pledges",
+          "summary": "Tech giants including Alphabet, Amazon, Meta, and Microsoft acknowledged AI's strain on the environment, challenging their CO2 pledges as massive compute spending for AI infrastructure scales globally.",
+          "source": "Industry News",
+          "url": "https://deeplearning.ai",
+          "tags": [
+            "environment",
+            "sustainability",
+            "ai-impact"
+          ],
           "featured": false
         }
       ]
     },
     {
       "id": "radar",
-      "emoji": "📅",
+      "emoji": "\ud83d\udcc5",
       "label": "On the Radar",
       "items": [
         {
-          "headline": "Data Centers Account for Growing Electricity Demand",
-          "summary": "In 2024, data centers accounted for 1.5% of global electricity consumption and 4.4% in the U.S., projected to rise to 12% within years. Well-run data centers remain most efficient, but the sharp rise in AI demand is pushing companies toward further fossil fuel reliance despite earlier clean energy commitments.",
-          "source": "The Batch @ DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VWRN916XJLL5W6jHm_42B6CSSW8LzBkh5Ny37w",
-          "tags": ["energy", "data-centers", "climate"],
+          "headline": "Kimi K2.6 challenges leading open-weights models",
+          "summary": "Kimi K2.6 matches or beats open Qwen3.6 Max and DeepSeek V4, though it falls just behind top closed models.",
+          "source": "Industry News",
+          "url": "https://deeplearning.ai",
+          "tags": [
+            "benchmarks",
+            "open-models"
+          ],
+          "featured": false
+        },
+        {
+          "headline": "Researchers model human decision-making in Rock-Paper-Scissors with LLMs",
+          "summary": "Researchers at UT-Austin and Google modeled human decision-making in Rock-Paper-Scissors to compare strategic thinking in LLMs versus humans.",
+          "source": "Research",
+          "url": "https://deeplearning.ai",
+          "tags": [
+            "research",
+            "cognition",
+            "llm-analysis"
+          ],
           "featured": false
         }
       ]
