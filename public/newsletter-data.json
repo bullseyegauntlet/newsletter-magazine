@@ -1,143 +1,124 @@
 {
-  "issue": 12,
-  "publishedAt": "2026-05-04T21:00:54.012414+00:00",
+  "issue": 13,
+  "publishedAt": "2026-05-05T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI \u2014 May 4, 2026",
+  "tagline": "AI intelligence for Gauntlet AI — May 5, 2026",
   "sources": [
-    "DeepLearning.AI",
-    "The Verge",
-    "Nvidia",
-    "VentureBeat",
-    "OpenAI",
-    "IBM"
+    "Tenex / Ultrathink",
+    "DeepLearning.AI"
   ],
   "sections": [
     {
       "id": "models",
-      "emoji": "\ud83e\udd16",
+      "emoji": "🤖",
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "Nvidia unveils Nemotron 3 Nano Omni multimodal model",
-          "summary": "Nvidia released Nemotron 3 Nano Omni, a 30-billion-parameter mixture-of-experts open-weights multimodal model consolidating vision, audio, and language processing into a single system for AI agents. It achieves up to 9x higher throughput than competing open models while maintaining interactive responsiveness, addressing a real bottleneck in agent systems. The model tops six leaderboards for document intelligence and video/audio understanding. Launched April 28 via Hugging Face, OpenRouter, and 25+ partner platforms with early adoption from Palantir, H Company, Foxconn, and others building production agents.",
-          "source": "Nvidia",
-          "url": "https://nvidia.com",
-          "tags": [
-            "model-release",
-            "multimodal",
-            "agents"
-          ],
+          "headline": "Anthropic Hits $44B ARR, Up $14B in One Month",
+          "summary": "Anthropic crossed $44 billion in annual recurring revenue this week—a $14 billion jump in a single month. The scale of agent adoption is now outpacing traditional SaaS growth curves, with enterprise customers spending $8-$12 on services for every $1 spent on Claude software.",
+          "source": "Tenex / Ultrathink",
+          "url": "https://x.com/Futurenvesting/status/2050259511068201403",
+          "tags": ["Enterprise Adoption", "Revenue", "Agents"],
           "featured": true
         },
         {
-          "headline": "xAI updates Grok with lower prices and expanded context handling",
-          "summary": "xAI shipped Grok 4.3 at $1.25 per million input tokens\u2014approximately 37.5% cheaper than Grok 4.2. The model runs reasoning permanently rather than as an optional mode, and handles a one-million-token context window. It can autonomously generate Excel spreadsheets, PDFs, and PowerPoint decks, plus access web search and code execution. On benchmarks, Grok 4.3 still lags OpenAI and Anthropic's latest models, though it improves over its predecessor. xAI also released Custom Voices for voice cloning and the voice agent API at $3/hr (US only, outside Illinois).",
-          "source": "VentureBeat",
-          "url": "https://venturebeat.com",
-          "tags": [
-            "pricing",
-            "features",
-            "voice-ai"
-          ],
-          "featured": false
-        },
-        {
-          "headline": "OpenAI publishes operating principles on path to AGI",
-          "summary": "OpenAI published a statement of operating principles to guide its work toward artificial general intelligence: democratization (resisting power consolidation), empowerment (enabling users to accomplish valuable tasks), universal prosperity (ensuring broad economic benefit), resilience (collaborating on safety and societal risks), and adaptability (updating positions as technology evolves). The company explicitly flags that future trade-offs may force it to prioritize resilience over empowerment. The statement reveals reasoning behind unusual business decisions\u2014massive compute spending despite modest revenue, vertical integration, and global datacenter expansion\u2014which OpenAI frames as expressions of belief in universal prosperity rather than standard growth tactics.",
-          "source": "OpenAI",
-          "url": "https://openai.com",
-          "tags": [
-            "philosophy",
-            "strategy",
-            "agi"
-          ],
-          "featured": false
-        },
-        {
-          "headline": "IBM releases Granite 4.1 model suite with multilingual and multimodal variants",
-          "summary": "IBM released Granite 4.1, a collection spanning language, vision, speech, embedding, and safety models\u2014its broadest model release to date. Language models come in 3B, 8B, and 30B parameter sizes, and IBM claims the new 8B instruct model matches or beats its previous 32B mixture-of-experts model, a meaningful efficiency jump for teams watching inference costs. All three are trained on roughly 15 trillion tokens with a multi-stage reinforcement learning pipeline separately targeting instruction following, conversation quality, and mathematical reasoning. The speech line includes a non-autoregressive variant (Granite Speech 4.1 2B NAR) generating entire sequences at once rather than one token at a time, trading some transcription features for substantially higher GPU throughput. Granite Guardian 4.1 expands the prior guardrail model's risk taxonomy and is designed to run alongside any LLM\u2014open or proprietary\u2014as an inline safety layer. All models released under Apache 2.0.",
-          "source": "IBM",
-          "url": "https://ibm.com",
-          "tags": [
-            "model-release",
-            "multilingual",
-            "efficiency"
-          ],
+          "headline": "Grok 4.3 Quietly Shipped with Improvements",
+          "summary": "xAI cut Grok's API pricing, improved speed, and added stronger tool use without fanfare. While Grok still trails in reasoning (53 on Artificial Analysis vs GPT-5.5 at 60), it's useful for writing and support. For hard reasoning and multi-step execution, the pack is still ahead.",
+          "source": "Tenex / Ultrathink",
+          "url": "https://x.com/xai/",
+          "tags": ["Model Performance", "Pricing", "xAI"],
           "featured": false
         }
       ]
     },
     {
       "id": "agents",
-      "emoji": "\ud83d\udda5\ufe0f",
+      "emoji": "🖥️",
       "label": "Agents & Tools",
       "items": [
         {
-          "headline": "Nemotron 3 Nano Omni powers production agent deployment",
-          "summary": "Nvidia's Nemotron 3 Nano Omni consolidates multimodal processing for AI agents with 9x throughput improvements over competitors. Already in production use at Palantir and others.",
-          "source": "Nvidia",
-          "url": "https://nvidia.com",
-          "tags": [
-            "agents",
-            "multimodal",
-            "efficiency"
-          ],
+          "headline": "Cloudflare & Stripe Ship Agents Protocol",
+          "summary": "Cloudflare and Stripe released a joint protocol letting AI agents create Cloudflare accounts, register domains, and deploy live applications without human intervention. Agents can spin up infrastructure, pay for it, and ship to the internet independently. Supabase, Hugging Face, Twilio, and AgentMail are already on the protocol.",
+          "source": "Tenex / Ultrathink",
+          "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+          "tags": ["Infrastructure", "Agents", "Platform Integration"],
+          "featured": false
+        },
+        {
+          "headline": "Salesforce 'Headless 360' Exposes Entire Platform",
+          "summary": "At Trailblazer DX, Salesforce launched 'Headless 360,' exposing their entire platform so agents like Claude Code and Codex can operate on Salesforce directly without a browser. This signals a strategic shift: when the world's largest enterprise CRM rebuilds for agents as the primary user, that's a decision about which side of the transition the company wants to be on.",
+          "source": "Tenex / Ultrathink",
+          "url": "https://venturebeat.com/technology/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents",
+          "tags": ["Enterprise Tools", "Headless", "Salesforce"],
           "featured": false
         }
       ]
     },
     {
       "id": "music",
-      "emoji": "\ud83c\udfb5",
+      "emoji": "🎵",
       "label": "Music & Creative AI",
       "highlight": true,
       "items": []
     },
     {
       "id": "workforce",
-      "emoji": "\ud83d\udcbc",
+      "emoji": "💼",
       "label": "Workforce & Business",
       "items": [
         {
-          "headline": "Tech giants acknowledge AI's environmental strain, challenging CO2 pledges",
-          "summary": "Tech giants including Alphabet, Amazon, Meta, and Microsoft acknowledged AI's strain on the environment, challenging their CO2 pledges as massive compute spending for AI infrastructure scales globally.",
-          "source": "Industry News",
-          "url": "https://deeplearning.ai",
-          "tags": [
-            "environment",
-            "sustainability",
-            "ai-impact"
-          ],
+          "headline": "97% of Companies Deployed Agents, Only 29% Seeing ROI",
+          "summary": "A new Writer survey on enterprise AI adoption puts numbers on the suspected gap: nearly every company has agents running, but almost nobody sees real returns yet. 54% of C-suite say AI adoption is 'tearing their company apart,' and 29% of employees actively sabotage AI strategy. The deployment gap closed; the execution gap remains.",
+          "source": "Tenex / Ultrathink",
+          "url": "https://writer.com/blog/enterprise-ai-adoption-2026/",
+          "tags": ["Adoption", "Execution", "Enterprise"],
+          "featured": false
+        },
+        {
+          "headline": "Pentagon Signs AI Deals with 7 Big Tech Firms",
+          "summary": "The Pentagon signed classified AI deals with OpenAI, Google, Microsoft, Amazon, Nvidia, SpaceX, and Reflection AI to deploy AI on military networks. Anthropic was notably excluded after refusing to remove safety guardrails around autonomous weapons and mass surveillance. Watch how this reshapes the relationship between AI labs and the defense establishment.",
+          "source": "Tenex / Ultrathink",
+          "url": "https://apnews.com/article/pentagon-artificial-intelligence-military-classified-systems-war-06ccefc836c4cebcf012a3ceb5333f2c",
+          "tags": ["Government", "Defense", "Policy"],
+          "featured": false
+        },
+        {
+          "headline": "Novo Nordisk Goes All-In on OpenAI",
+          "summary": "The world's largest pharma by market cap is integrating OpenAI across drug discovery, clinical trials, manufacturing, and commercial ops—full deployment by end of 2026. Eli Lilly signed a competing deal with Insilico Medicine in March. Big Pharma's AI arms race is real and moving faster than most expected.",
+          "source": "Tenex / Ultrathink",
+          "url": "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html",
+          "tags": ["Pharma", "OpenAI", "Adoption"],
+          "featured": false
+        },
+        {
+          "headline": "Tenex Hiring: AI Strategist, Engineers, Engagement Manager",
+          "summary": "Tenex is building out the team behind this newsletter. Open roles: AI Strategist, Forward Deployed Engineer, Applied AI Engineer, and Engagement Manager. NY-based. Salary varies by role and experience; additional comp based on output.",
+          "source": "Tenex / Ultrathink",
+          "url": "https://www.tenex.co/about-us",
+          "tags": ["Hiring", "Engineering", "New York"],
           "featured": false
         }
       ]
     },
     {
       "id": "radar",
-      "emoji": "\ud83d\udcc5",
+      "emoji": "📅",
       "label": "On the Radar",
       "items": [
         {
-          "headline": "Kimi K2.6 challenges leading open-weights models",
-          "summary": "Kimi K2.6 matches or beats open Qwen3.6 Max and DeepSeek V4, though it falls just behind top closed models.",
-          "source": "Industry News",
-          "url": "https://deeplearning.ai",
-          "tags": [
-            "benchmarks",
-            "open-models"
-          ],
+          "headline": "Q1 2026 Venture Funding Shattered Every Record",
+          "summary": "Q1 2026 venture funding hit $300 billion—a record-breaking quarter. Four of the five largest rounds in history closed in 90 days: OpenAI ($122B), Anthropic ($30B), xAI ($20B), and Waymo ($16B). That's $188B to four companies, or 65% of all global venture investment for the quarter.",
+          "source": "Tenex / Ultrathink",
+          "url": "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/",
+          "tags": ["Funding", "Venture", "Capital"],
           "featured": false
         },
         {
-          "headline": "Researchers model human decision-making in Rock-Paper-Scissors with LLMs",
-          "summary": "Researchers at UT-Austin and Google modeled human decision-making in Rock-Paper-Scissors to compare strategic thinking in LLMs versus humans.",
-          "source": "Research",
-          "url": "https://deeplearning.ai",
-          "tags": [
-            "research",
-            "cognition",
-            "llm-analysis"
-          ],
+          "headline": "Anthropic + OpenAI Stand Up AI Services Arms",
+          "summary": "Anthropic announced a $1.05B joint venture with Blackstone, Hellman & Friedman, and Goldman Sachs to help PE-backed businesses integrate Claude. OpenAI is launching a parallel structure with its own partners. The data point: customers spend $8-$12 on services per $1 spent on AI software. The labs are following the actual revenue.",
+          "source": "Tenex / Ultrathink",
+          "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+          "tags": ["Services", "Enterprise", "Partnerships"],
           "featured": false
         }
       ]
