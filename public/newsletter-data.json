@@ -1,11 +1,10 @@
 {
-  "issue": 13,
-  "publishedAt": "2026-05-05T21:00:00Z",
+  "issue": 14,
+  "publishedAt": "2026-05-06T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — May 5, 2026",
+  "tagline": "AI intelligence for Gauntlet AI — May 6, 2026",
   "sources": [
-    "Tenex / Ultrathink",
-    "DeepLearning.AI"
+    "DeepLearning.AI Data Points"
   ],
   "sections": [
     {
@@ -14,19 +13,19 @@
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "Anthropic Hits $44B ARR, Up $14B in One Month",
-          "summary": "Anthropic crossed $44 billion in annual recurring revenue this week—a $14 billion jump in a single month. The scale of agent adoption is now outpacing traditional SaaS growth curves, with enterprise customers spending $8-$12 on services for every $1 spent on Claude software.",
-          "source": "Tenex / Ultrathink",
-          "url": "https://x.com/Futurenvesting/status/2050259511068201403",
-          "tags": ["Enterprise Adoption", "Revenue", "Agents"],
+          "headline": "GPT-5.5 Instant Reduces Hallucinations by 52.5%, Cuts Errors by 37.3%",
+          "summary": "OpenAI's latest model replacement delivers 52.5% fewer hallucinated claims on high-stakes prompts (medicine, law, finance) and cuts inaccurate statements by 37.3% on flagged conversations. Responses are tighter, more concise, while retaining conversational warmth. Enhanced features include memory sources showing which past chats/files shaped responses, plus new data connectors.",
+          "source": "DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD1n3pqgz0W7Y8-PT6lZ3m-VF5VN5gFLKxFgtwN5TcK9nN1QUXlBW5xNzRxW2xfzoVC6xW5BvwYPY6oYmw3~q1W1Qs8qC1nSW2bfHz1mn28KqPW7hR2HS9GQRT0W6c5pjlUDp0W97tVu9OnmLB2N2Sv1s1n4UFPVrXCq3k0J3NW5FXKcLfj5fWW3MU8S04",
+          "tags": ["OpenAI", "accuracy", "hallucination", "personalization"],
           "featured": true
         },
         {
-          "headline": "Grok 4.3 Quietly Shipped with Improvements",
-          "summary": "xAI cut Grok's API pricing, improved speed, and added stronger tool use without fanfare. While Grok still trails in reasoning (53 on Artificial Analysis vs GPT-5.5 at 60), it's useful for writing and support. For hard reasoning and multi-step execution, the pack is still ahead.",
-          "source": "Tenex / Ultrathink",
-          "url": "https://x.com/xai/",
-          "tags": ["Model Performance", "Pricing", "xAI"],
+          "headline": "Kimi K2.6 Matches Open-Weights Leaders (Qwen3.6, DeepSeek V4)",
+          "summary": "Kimi K2.6 achieved near-parity with open-weights champions Qwen3.6 Max and DeepSeek V4, though narrowly falls short of top closed models. A competitive move in the increasingly crowded open-source LLM space.",
+          "source": "DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0P5nR3bW65PN9O60W5BJQW1J1e0FfKsHvVN4VnxWm1C0bVv9uo94lX8qX3pW485qkk",
+          "tags": ["open-source", "benchmarks", "language models"],
           "featured": false
         }
       ]
@@ -37,19 +36,11 @@
       "label": "Agents & Tools",
       "items": [
         {
-          "headline": "Cloudflare & Stripe Ship Agents Protocol",
-          "summary": "Cloudflare and Stripe released a joint protocol letting AI agents create Cloudflare accounts, register domains, and deploy live applications without human intervention. Agents can spin up infrastructure, pay for it, and ship to the internet independently. Supabase, Hugging Face, Twilio, and AgentMail are already on the protocol.",
-          "source": "Tenex / Ultrathink",
-          "url": "https://blog.cloudflare.com/agents-stripe-projects/",
-          "tags": ["Infrastructure", "Agents", "Platform Integration"],
-          "featured": false
-        },
-        {
-          "headline": "Salesforce 'Headless 360' Exposes Entire Platform",
-          "summary": "At Trailblazer DX, Salesforce launched 'Headless 360,' exposing their entire platform so agents like Claude Code and Codex can operate on Salesforce directly without a browser. This signals a strategic shift: when the world's largest enterprise CRM rebuilds for agents as the primary user, that's a decision about which side of the transition the company wants to be on.",
-          "source": "Tenex / Ultrathink",
-          "url": "https://venturebeat.com/technology/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents",
-          "tags": ["Enterprise Tools", "Headless", "Salesforce"],
+          "headline": "Anthropic Launches 10 Finance Agent Templates for Banking & Trading",
+          "summary": "10 new agent templates handle labor-intensive financial work: pitchbooks, KYC screening, ledger reconciliation, month-end close. Deploy as Claude Cowork/Code plugins or Managed Agents cookbooks in days, not weeks. Includes 8 new data connectors (Dun & Bradstreet, Guidepoint, Verisk) + Moody's MCP embedding 600M company credit ratings directly in Claude. Agents run on Claude Opus 4.7, leading Vals AI Finance Agent benchmark at 64.37%.",
+          "source": "DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD1H3qgz0W7Y8-PT6lZ3klkWyN0oVHDdWFB5lW3MU8S04",
+          "tags": ["agents", "finance", "banking", "automation"],
           "featured": false
         }
       ]
@@ -59,7 +50,16 @@
       "emoji": "🎵",
       "label": "Music & Creative AI",
       "highlight": true,
-      "items": []
+      "items": [
+        {
+          "headline": "Beyond Lab Memes: AI's Real Value in Creative & Scientific Domains",
+          "summary": "While hallmark AI breakthroughs (like the Meme of the Week: fashion AI at the Met Gala highlighting CLRS Algorithms textbook) dominate headlines, the deeper wins are unglamorous. Eli Lilly used AI to simulate and improve tirzepamide production, achieving 'mind-blowing' output gains. Recursion Pharma cut experimental cancer drug design from 4 years to 18 months. Real creative and scientific leverage isn't in viral moments—it's in scaling tedious work.",
+          "source": "DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD1Hn3pqgz0W7Y8-PT6lZ3mUW9p8B5C1nSW2bfHz1mn28KqPW7hR2HS9GQRT0W6c5pjlUDp0W97tVu9OnmLB2N2Sv1s1n4UFPVrXCq3k0J3NW5FXKcLfj5fWW3MU8S04",
+          "tags": ["creativity", "manufacturing", "efficiency", "drug discovery"],
+          "featured": false
+        }
+      ]
     },
     {
       "id": "workforce",
@@ -67,35 +67,19 @@
       "label": "Workforce & Business",
       "items": [
         {
-          "headline": "97% of Companies Deployed Agents, Only 29% Seeing ROI",
-          "summary": "A new Writer survey on enterprise AI adoption puts numbers on the suspected gap: nearly every company has agents running, but almost nobody sees real returns yet. 54% of C-suite say AI adoption is 'tearing their company apart,' and 29% of employees actively sabotage AI strategy. The deployment gap closed; the execution gap remains.",
-          "source": "Tenex / Ultrathink",
-          "url": "https://writer.com/blog/enterprise-ai-adoption-2026/",
-          "tags": ["Adoption", "Execution", "Enterprise"],
+          "headline": "Big Pharma Bets Billions on AI—But Clinical Gains Lag Efficiency",
+          "summary": "Eli Lilly, Roche, GSK, AstraZeneca are pouring billions into AI partnerships, betting machine learning accelerates drug discovery. Yet promise hasn't materialized: clinical trial success rates unchanged, companies still lack sufficient training data, face high compute costs. Real wins come from back-office optimization: tirzepamide production efficiency, month-end automation. RBC Capital estimates AI could save US pharma $90B over 5 years—mostly from efficiency, not innovation.",
+          "source": "DeepLearning.AI (Wall Street Journal)",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0P5nR3bW65PN9O60W5BJQW1J1e0FfKsHvVN4VnxWm1C0bVv9uo94lX8qX3pW485qkk",
+          "tags": ["pharma", "drug discovery", "ROI", "business efficiency"],
           "featured": false
         },
         {
-          "headline": "Pentagon Signs AI Deals with 7 Big Tech Firms",
-          "summary": "The Pentagon signed classified AI deals with OpenAI, Google, Microsoft, Amazon, Nvidia, SpaceX, and Reflection AI to deploy AI on military networks. Anthropic was notably excluded after refusing to remove safety guardrails around autonomous weapons and mass surveillance. Watch how this reshapes the relationship between AI labs and the defense establishment.",
-          "source": "Tenex / Ultrathink",
-          "url": "https://apnews.com/article/pentagon-artificial-intelligence-military-classified-systems-war-06ccefc836c4cebcf012a3ceb5333f2c",
-          "tags": ["Government", "Defense", "Policy"],
-          "featured": false
-        },
-        {
-          "headline": "Novo Nordisk Goes All-In on OpenAI",
-          "summary": "The world's largest pharma by market cap is integrating OpenAI across drug discovery, clinical trials, manufacturing, and commercial ops—full deployment by end of 2026. Eli Lilly signed a competing deal with Insilico Medicine in March. Big Pharma's AI arms race is real and moving faster than most expected.",
-          "source": "Tenex / Ultrathink",
-          "url": "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html",
-          "tags": ["Pharma", "OpenAI", "Adoption"],
-          "featured": false
-        },
-        {
-          "headline": "Tenex Hiring: AI Strategist, Engineers, Engagement Manager",
-          "summary": "Tenex is building out the team behind this newsletter. Open roles: AI Strategist, Forward Deployed Engineer, Applied AI Engineer, and Engagement Manager. NY-based. Salary varies by role and experience; additional comp based on output.",
-          "source": "Tenex / Ultrathink",
-          "url": "https://www.tenex.co/about-us",
-          "tags": ["Hiring", "Engineering", "New York"],
+          "headline": "US Military Expands AI Partnerships with Microsoft, Amazon, Nvidia, Reflection AI",
+          "summary": "DoD signed agreements with Microsoft, Amazon, Nvidia, and Reflection AI to deploy AI systems on classified operations. Follows Pentagon's cancellation of Anthropic's $200M contract over autonomous weapon restrictions. DoD frames expansion as 'AI-first fighting force' with approved systems handling sensitive classified materials. Separately, Commerce Dept expanded voluntary testing with Google, Microsoft, xAI providing early access for security/capability assessment.",
+          "source": "DeepLearning.AI (AI News, Axios)",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0P5nR3bW65PN9O60W5BJQW1J1e0FfKsHvVN4VnxWm1C0bVv9uo94lX8qX3pW485qkk",
+          "tags": ["defense", "military", "policy", "autonomous systems"],
           "featured": false
         }
       ]
@@ -106,19 +90,19 @@
       "label": "On the Radar",
       "items": [
         {
-          "headline": "Q1 2026 Venture Funding Shattered Every Record",
-          "summary": "Q1 2026 venture funding hit $300 billion—a record-breaking quarter. Four of the five largest rounds in history closed in 90 days: OpenAI ($122B), Anthropic ($30B), xAI ($20B), and Waymo ($16B). That's $188B to four companies, or 65% of all global venture investment for the quarter.",
-          "source": "Tenex / Ultrathink",
-          "url": "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/",
-          "tags": ["Funding", "Venture", "Capital"],
+          "headline": "White House Preparing AI Model Vetting System Modeled on FDA Drug Approval",
+          "summary": "Executive order in prep to create vetting system for new AI models, mirroring FDA drug approval processes. Triggered by Anthropic's Mythos model disclosure identifying network vulnerabilities and cybersecurity risks; Trump administration currently testing model across federal agencies and large tech firms. Vetting likely extends to all AI companies (not just Mythos). Unclear if order mandates testing or operates as voluntary framework.",
+          "source": "DeepLearning.AI (Bloomberg)",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0v5mR3bW65PN9O60W5BWr2F6lZ3nTW2xfz0VCqV0-lCW4Sy8TYDp3l7N78Bl2N8n8Z",
+          "tags": ["regulation", "FDA-style", "government", "security vetting"],
           "featured": false
         },
         {
-          "headline": "Anthropic + OpenAI Stand Up AI Services Arms",
-          "summary": "Anthropic announced a $1.05B joint venture with Blackstone, Hellman & Friedman, and Goldman Sachs to help PE-backed businesses integrate Claude. OpenAI is launching a parallel structure with its own partners. The data point: customers spend $8-$12 on services per $1 spent on AI software. The labs are following the actual revenue.",
-          "source": "Tenex / Ultrathink",
-          "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-          "tags": ["Services", "Enterprise", "Partnerships"],
+          "headline": "Google DeepMind Employees Vote to Unionize Over Military AI Use",
+          "summary": "DeepMind London office voted to unionize, seeking Communication Workers Union recognition to block lab from providing tech to US and Israeli militaries. Accelerated after Alphabet removed public pledge against weapons development/surveillance (Feb 2025). DeepMind & OpenAI staff signed letters supporting Anthropic after DoD designated it a supply chain risk. If Google refuses recognition, workers say they'll escalate to UK arbitration committee.",
+          "source": "DeepLearning.AI (WIRED)",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0b5mR3bW65PN9O60W5BWr2F6lZ3ntW2xfz0VCqV0-lCW4Sy8TYDp3l7N78Bl2N8n8Z",
+          "tags": ["labor", "military", "unionization", "ethics"],
           "featured": false
         }
       ]
