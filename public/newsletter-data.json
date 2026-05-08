@@ -1,10 +1,10 @@
 {
-  "issue": 14,
-  "publishedAt": "2026-05-06T21:00:00Z",
+  "issue": 2,
+  "publishedAt": "2026-05-08T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — May 6, 2026",
+  "tagline": "AI intelligence for Gauntlet AI — May 8, 2026",
   "sources": [
-    "DeepLearning.AI Data Points"
+    "DeepLearning.AI"
   ],
   "sections": [
     {
@@ -13,20 +13,12 @@
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "GPT-5.5 Instant Reduces Hallucinations by 52.5%, Cuts Errors by 37.3%",
-          "summary": "OpenAI's latest model replacement delivers 52.5% fewer hallucinated claims on high-stakes prompts (medicine, law, finance) and cuts inaccurate statements by 37.3% on flagged conversations. Responses are tighter, more concise, while retaining conversational warmth. Enhanced features include memory sources showing which past chats/files shaped responses, plus new data connectors.",
+          "headline": "CopilotKit: Generative UI for React Agents",
+          "summary": "Build agents that render charts, forms, and interactive UIs on demand. Integrate LangChain agents with React frontends using the AG-UI protocol. Taught by Atai Barkai, CopilotKit's CEO.",
           "source": "DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD1n3pqgz0W7Y8-PT6lZ3m-VF5VN5gFLKxFgtwN5TcK9nN1QUXlBW5xNzRxW2xfzoVC6xW5BvwYPY6oYmw3~q1W1Qs8qC1nSW2bfHz1mn28KqPW7hR2HS9GQRT0W6c5pjlUDp0W97tVu9OnmLB2N2Sv1s1n4UFPVrXCq3k0J3NW5FXKcLfj5fWW3MU8S04",
-          "tags": ["OpenAI", "accuracy", "hallucination", "personalization"],
+          "url": "https://info.deeplearning.ai/build-agents-that-render-interactive-uis",
+          "tags": ["agents", "react", "ui-generation"],
           "featured": true
-        },
-        {
-          "headline": "Kimi K2.6 Matches Open-Weights Leaders (Qwen3.6, DeepSeek V4)",
-          "summary": "Kimi K2.6 achieved near-parity with open-weights champions Qwen3.6 Max and DeepSeek V4, though narrowly falls short of top closed models. A competitive move in the increasingly crowded open-source LLM space.",
-          "source": "DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0P5nR3bW65PN9O60W5BJQW1J1e0FfKsHvVN4VnxWm1C0bVv9uo94lX8qX3pW485qkk",
-          "tags": ["open-source", "benchmarks", "language models"],
-          "featured": false
         }
       ]
     },
@@ -36,11 +28,19 @@
       "label": "Agents & Tools",
       "items": [
         {
-          "headline": "Anthropic Launches 10 Finance Agent Templates for Banking & Trading",
-          "summary": "10 new agent templates handle labor-intensive financial work: pitchbooks, KYC screening, ledger reconciliation, month-end close. Deploy as Claude Cowork/Code plugins or Managed Agents cookbooks in days, not weeks. Includes 8 new data connectors (Dun & Bradstreet, Guidepoint, Verisk) + Moody's MCP embedding 600M company credit ratings directly in Claude. Agents run on Claude Opus 4.7, leading Vals AI Finance Agent benchmark at 64.37%.",
+          "headline": "AI Prompting for Everyone",
+          "summary": "Learn practical prompting techniques to get more useful results from AI tools. Course by Andrew Ng covering web search, deep research modes, brainstorming partnerships, and no-code app building.",
           "source": "DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD1H3qgz0W7Y8-PT6lZ3klkWyN0oVHDdWFB5lW3MU8S04",
-          "tags": ["agents", "finance", "banking", "automation"],
+          "url": "https://info.deeplearning.ai/ai-prompting-for-everyone",
+          "tags": ["prompting", "techniques", "practical-ai"],
+          "featured": false
+        },
+        {
+          "headline": "MCP Apps for Agent Integration",
+          "summary": "Use Model Context Protocol (MCP) apps to connect agents to external tools and data sources. Support for canvas-style interactions where agents and users work with shared state.",
+          "source": "DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/build-agents-that-render-interactive-uis",
+          "tags": ["mcp", "agent-tools", "integration"],
           "featured": false
         }
       ]
@@ -50,39 +50,13 @@
       "emoji": "🎵",
       "label": "Music & Creative AI",
       "highlight": true,
-      "items": [
-        {
-          "headline": "Beyond Lab Memes: AI's Real Value in Creative & Scientific Domains",
-          "summary": "While hallmark AI breakthroughs (like the Meme of the Week: fashion AI at the Met Gala highlighting CLRS Algorithms textbook) dominate headlines, the deeper wins are unglamorous. Eli Lilly used AI to simulate and improve tirzepamide production, achieving 'mind-blowing' output gains. Recursion Pharma cut experimental cancer drug design from 4 years to 18 months. Real creative and scientific leverage isn't in viral moments—it's in scaling tedious work.",
-          "source": "DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD1Hn3pqgz0W7Y8-PT6lZ3mUW9p8B5C1nSW2bfHz1mn28KqPW7hR2HS9GQRT0W6c5pjlUDp0W97tVu9OnmLB2N2Sv1s1n4UFPVrXCq3k0J3NW5FXKcLfj5fWW3MU8S04",
-          "tags": ["creativity", "manufacturing", "efficiency", "drug discovery"],
-          "featured": false
-        }
-      ]
+      "items": []
     },
     {
       "id": "workforce",
       "emoji": "💼",
       "label": "Workforce & Business",
-      "items": [
-        {
-          "headline": "Big Pharma Bets Billions on AI—But Clinical Gains Lag Efficiency",
-          "summary": "Eli Lilly, Roche, GSK, AstraZeneca are pouring billions into AI partnerships, betting machine learning accelerates drug discovery. Yet promise hasn't materialized: clinical trial success rates unchanged, companies still lack sufficient training data, face high compute costs. Real wins come from back-office optimization: tirzepamide production efficiency, month-end automation. RBC Capital estimates AI could save US pharma $90B over 5 years—mostly from efficiency, not innovation.",
-          "source": "DeepLearning.AI (Wall Street Journal)",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0P5nR3bW65PN9O60W5BJQW1J1e0FfKsHvVN4VnxWm1C0bVv9uo94lX8qX3pW485qkk",
-          "tags": ["pharma", "drug discovery", "ROI", "business efficiency"],
-          "featured": false
-        },
-        {
-          "headline": "US Military Expands AI Partnerships with Microsoft, Amazon, Nvidia, Reflection AI",
-          "summary": "DoD signed agreements with Microsoft, Amazon, Nvidia, and Reflection AI to deploy AI systems on classified operations. Follows Pentagon's cancellation of Anthropic's $200M contract over autonomous weapon restrictions. DoD frames expansion as 'AI-first fighting force' with approved systems handling sensitive classified materials. Separately, Commerce Dept expanded voluntary testing with Google, Microsoft, xAI providing early access for security/capability assessment.",
-          "source": "DeepLearning.AI (AI News, Axios)",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0P5nR3bW65PN9O60W5BJQW1J1e0FfKsHvVN4VnxWm1C0bVv9uo94lX8qX3pW485qkk",
-          "tags": ["defense", "military", "policy", "autonomous systems"],
-          "featured": false
-        }
-      ]
+      "items": []
     },
     {
       "id": "radar",
@@ -90,19 +64,11 @@
       "label": "On the Radar",
       "items": [
         {
-          "headline": "White House Preparing AI Model Vetting System Modeled on FDA Drug Approval",
-          "summary": "Executive order in prep to create vetting system for new AI models, mirroring FDA drug approval processes. Triggered by Anthropic's Mythos model disclosure identifying network vulnerabilities and cybersecurity risks; Trump administration currently testing model across federal agencies and large tech firms. Vetting likely extends to all AI companies (not just Mythos). Unclear if order mandates testing or operates as voluntary framework.",
-          "source": "DeepLearning.AI (Bloomberg)",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0v5mR3bW65PN9O60W5BWr2F6lZ3nTW2xfz0VCqV0-lCW4Sy8TYDp3l7N78Bl2N8n8Z",
-          "tags": ["regulation", "FDA-style", "government", "security vetting"],
-          "featured": false
-        },
-        {
-          "headline": "Google DeepMind Employees Vote to Unionize Over Military AI Use",
-          "summary": "DeepMind London office voted to unionize, seeking Communication Workers Union recognition to block lab from providing tech to US and Israeli militaries. Accelerated after Alphabet removed public pledge against weapons development/surveillance (Feb 2025). DeepMind & OpenAI staff signed letters supporting Anthropic after DoD designated it a supply chain risk. If Google refuses recognition, workers say they'll escalate to UK arbitration committee.",
-          "source": "DeepLearning.AI (WIRED)",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0b5mR3bW65PN9O60W5BWr2F6lZ3ntW2xfz0VCqV0-lCW4Sy8TYDp3l7N78Bl2N8n8Z",
-          "tags": ["labor", "military", "unionization", "ethics"],
+          "headline": "Short Courses Week at DeepLearning.AI",
+          "summary": "New batch of short, focused courses on practical AI topics including prompting, agent development, and UI generation for AI applications.",
+          "source": "DeepLearning.AI",
+          "url": "https://info.deeplearning.ai/",
+          "tags": ["learning", "courses", "ai-education"],
           "featured": false
         }
       ]
