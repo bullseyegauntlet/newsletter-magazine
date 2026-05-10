@@ -1,11 +1,9 @@
 {
-  "issue": 2,
-  "publishedAt": "2026-05-08T21:00:00Z",
+  "issue": 3,
+  "publishedAt": "2026-05-10T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — May 8, 2026",
-  "sources": [
-    "DeepLearning.AI"
-  ],
+  "tagline": "AI intelligence for Gauntlet AI — May 10, 2026",
+  "sources": ["DeepLearning.AI", "ultrathink/Tenex"],
   "sections": [
     {
       "id": "models",
@@ -13,12 +11,20 @@
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "CopilotKit: Generative UI for React Agents",
-          "summary": "Build agents that render charts, forms, and interactive UIs on demand. Integrate LangChain agents with React frontends using the AG-UI protocol. Taught by Atai Barkai, CopilotKit's CEO.",
-          "source": "DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/build-agents-that-render-interactive-uis",
-          "tags": ["agents", "react", "ui-generation"],
+          "headline": "OpenAI Launches GPT-5.5 Instant with 52.5% Fewer Hallucinations",
+          "summary": "OpenAI rolled out GPT-5.5 Instant as the default ChatGPT model, reducing hallucinated claims by 52.5% on high-stakes prompts in medicine, law, and finance. The model improves image analysis, STEM reasoning, and includes memory sources—a transparency feature showing which past chats, files, or Gmail context shaped responses.",
+          "source": "DeepLearning.AI / The Batch",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD1n3prCCW7lCdLW6lZ3kHN1snHfbrDL58W7sGt2W51Ys18W1hS9Sv5hf-thW18lZQ74smnPsW1yySWt7SyHGhVk_ZV-8mQQlbV8br-Q6vTt8cW4_8nDY22RHzzW25j5bK6CP7VwW65HDz15_90JWW4dt9894C9fNkW6sVxhB6GmK02W3Nbf6t57mcbFW8FDzs072LtsgW49mjvx7sdxqgW8F2x592rhRJ_N3f8SsdGh19bW6HWkB34DC6FSN6slJh3J7JQSVtQkM73xlg09W6381bw1q33vtW5lr_sN4MnhxhW4NjhDC7wPy6ZN3FphkZMwpHGf2m_8lR04",
+          "tags": ["GPT-5.5", "hallucinations", "accuracy"],
           "featured": true
+        },
+        {
+          "headline": "White House Plans FDA-Style AI Model Vetting System",
+          "summary": "The Trump administration is preparing an executive order to create a vetting system for new AI models, modeled on FDA drug approval processes. The move follows Anthropic's disclosure that its Mythos model can identify network vulnerabilities. Commerce Department expanded voluntary testing program with Google, Microsoft, and xAI providing government early access.",
+          "source": "DeepLearning.AI / The Batch",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0b5m_5PW50kH_H6lZ3prW3KYNPZ3NhB_BVNgqw07NVq8JW8yxMW62hNT97V753g-7SgcytW6nmm_M8LBdfxW2bTwsc6rSD3RW7QHGdt2CnSMkW6vbFN72jmRJFW1dmWBj5DtZ7HW432lxV4B0W2vW2cyLgh7t9y19W3wD8214j2Nf2W5hdPBR5Wh5ygW3Y2cGC96L02pW4JLlnx2d2J6CW3nw1kk36YkcVW1JQxc097qcwsN8c8Bvlg_pb3W7w-Mkw7mNXqTW81jZPN7lz0NYW6r24Jw1YcmHlW6ZCc5W1LBd1HV1y7H86v1BlBW1rJmdK86__KmW2NXLJF5M3sC3W5qrQ9h6fjTzpW97f-pB2WTVLCW3pYpx92n2r5MVPPGcr67gD9WVllkgN3_LG1tW5TMMF-1St5vwW5LcHV33L6rF8f2l1Kyl04",
+          "tags": ["regulation", "FDA", "security", "vetting"],
+          "featured": false
         }
       ]
     },
@@ -28,19 +34,11 @@
       "label": "Agents & Tools",
       "items": [
         {
-          "headline": "AI Prompting for Everyone",
-          "summary": "Learn practical prompting techniques to get more useful results from AI tools. Course by Andrew Ng covering web search, deep research modes, brainstorming partnerships, and no-code app building.",
-          "source": "DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/ai-prompting-for-everyone",
-          "tags": ["prompting", "techniques", "practical-ai"],
-          "featured": false
-        },
-        {
-          "headline": "MCP Apps for Agent Integration",
-          "summary": "Use Model Context Protocol (MCP) apps to connect agents to external tools and data sources. Support for canvas-style interactions where agents and users work with shared state.",
-          "source": "DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/build-agents-that-render-interactive-uis",
-          "tags": ["mcp", "agent-tools", "integration"],
+          "headline": "Anthropic Releases 10 Agent Templates for Finance",
+          "summary": "Anthropic released agent templates handling labor-intensive financial work: pitchbook building, KYC document screening, ledger reconciliation, and monthly close. Templates available as Claude Cowork/Code plugins or Managed Agents cookbooks. Claude now integrates Excel, PowerPoint, Word, and Outlook with automatic context transfer. Added 8 new data connectors including Dun & Bradstreet and Moody's MCP.",
+          "source": "DeepLearning.AI / The Batch",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD1n3prCCW7lCdLW6lZ3kHN1snHfbrDL58W7sGt2W51Ys18W1hS9Sv5hf-thW18lZQ74smnPsW1yySWt7SyHGhVk_ZV-8mQQlbV8br-Q6vTt8cW4_8nDY22RHzzW25j5bK6CP7VwW65HDz15_90JWW4dt9894C9fNkW6sVxhB6GmK02W3Nbf6t57mcbFW8FDzs072LtsgW49mjvx7sdxqgW8F2x592rhRJ_N3f8SsdGh19bW6HWkB34DC6FSN6slJh3J7JQSVtQkM73xlg09W6381bw1q33vtW5lr_sN4MnhxhW4NjhDC7wPy6ZN3FphkZMwpHGf2m_8lR04",
+          "tags": ["agents", "finance", "Claude", "automation"],
           "featured": false
         }
       ]
@@ -56,7 +54,24 @@
       "id": "workforce",
       "emoji": "💼",
       "label": "Workforce & Business",
-      "items": []
+      "items": [
+        {
+          "headline": "Big Pharma Pours Billions into AI Despite Limited Drug Breakthroughs",
+          "summary": "Eli Lilly, Roche, GSK, and AstraZeneca investing billions in AI partnerships, but clinical trial success rates haven't improved. Real wins come from manufacturing optimization—Eli Lilly used AI to improve tirzepatide production with 'mind blowing' output gains. Recursion cut experimental drug design from 4 years to 18 months; Takeda's AI-discovered psoriasis pill heading to FDA. RBC estimates $90B in potential 5-year US pharma savings, mostly from efficiency.",
+          "source": "DeepLearning.AI / The Batch",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0v5m_5PW5BWr2F6lZ3lZN8vS3Gz28YHGW1S414G9d13D5W1njCLP3ZXLDKVPJsCr7wHjRtVbvbK_8Jh6PLW81_57p14SS36W6l9qgj8-jXv7W1BXjZR8GPR1FW1JjXk66KP0rLW2YKHYp585-vzW1ctBWr7fKWKwVfWczx1ds4c4W8543Mx7pfFX-W5nX_BN79JLYmW7ldXpX4sRFmbW671rX01qj0CSW18MDbM3bBb1MW88mgdv3cLH79W24q_jV9fPWw9W77cQpF8D3jQQV8zlWG5s51jxW4M5Ff736NWknN7-5jhzZ0lvjW2c-G877YbWxnW8fpZHz7nqVmtW7gjN5y7_1XdxW3JXJb-186RtSW6WXBgN1f1hKMW4JvNGW1nb5xXW8CtdP852Q6lpW68n2xD3Vq8GNW5nqf594Kg1qWW5lR77f6Vb7hPW4rz4FZ4gCgjzf50jfSg04",
+          "tags": ["pharma", "AI investment", "drug discovery", "manufacturing"],
+          "featured": false
+        },
+        {
+          "headline": "Google DeepMind London Votes to Unionize Over Military AI Concerns",
+          "summary": "DeepMind's London office voted to unionize (Communication Workers Union, Unite the Union) to block the lab from supplying technology to US and Israeli militaries. Move accelerated after Alphabet removed its public pledge against weapons development in February 2025. Google signed Pentagon deal allowing military use for 'any lawful government purpose.' DeepMind and OpenAI staff signed letter supporting Anthropic after DoD labeled it a supply chain risk for refusing autonomous weapons.",
+          "source": "DeepLearning.AI / The Batch",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD2g3prCCW95jsWP6lZ3lvW6sXHXB6SsqRhW70NCCv57VNNMW5dH9SG6Cb9dnW5wk_597qJ1nxW1hw8LD7293dpW6cLB1q5757Z5VjBzSQ3mHFxyN75z98x7-zJfW4lkCRT8K99WrN3s9dDXF_mhcW1RLnR85pkgY3W25x89G4glXSqW1rwQqD53LMvBW5fJlzt6rRhjTW7SyM3_3l6t2_W3srLjP5N1ZGlW6R9hfK4Gh8-FN8mnSd0Q9x3qW8KjL-V8MvcxCVcmTYD8Xdm-6W8v4Gfn1l1Lk1W8dvH6_2GqJTlW6MH4Q49kDY6jW76x9yM5YnW6TW1C4-Gs27nVs5N8GhQCTLxBqRW4s2WlY6xbZhLN88_NgXY8cQKW7PMRjD132sQXW660mhX3S4VLJf2q8FCs04",
+          "tags": ["unionization", "weapons", "military", "ethics", "Google"],
+          "featured": false
+        }
+      ]
     },
     {
       "id": "radar",
@@ -64,11 +79,11 @@
       "label": "On the Radar",
       "items": [
         {
-          "headline": "Short Courses Week at DeepLearning.AI",
-          "summary": "New batch of short, focused courses on practical AI topics including prompting, agent development, and UI generation for AI applications.",
-          "source": "DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/",
-          "tags": ["learning", "courses", "ai-education"],
+          "headline": "Pentagon Expands AI Partnerships; Anthropic Contract Cancelled",
+          "summary": "US Department of Defense signed agreements with Microsoft, Amazon, Nvidia, and Reflection AI for classified operations. Follows cancellation of $200M Anthropic contract over restrictions on domestic surveillance and autonomous weapons. Pentagon frames expansion as preventing vendor lock-in and building 'AI-first fighting force.' White House sources suggest administration may seek to bring Anthropic back; its Claude model remains in use across US security agencies.",
+          "source": "DeepLearning.AI / The Batch",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/MWVlWG3R_hBVYLJyS8xtVxCVQq1455NLDD7N7FnD0P5m_5PW69t95C6lZ3nFW34z4JZ42K5mQW5dwdwb80YMrXW2JNZJ_5tnllRN5bt_nQb8rtWW8mnyTP38hyP8W1YGXbB69LhFTW306d9g1hbGXBMKzTjT3jyCgW3VNbZ11xNjRXW5vJddX2BXbLkW799rpt6VKszRW2Q7MMF6S2MfBW2QCvxY6XRkPxW2yhbkT2D-9SzW14FBSD6-b88TN2zB8bbCQS1nW2mbBlK7X0RNrVKDpJv3Lv58vW7J0FNn2yyzfRW8c2P0y1lp7_GW2XtFHc34rZM2W4dHRVt6cqKWkW32lL768Xr3fBV8fvMD7tjlDfW8Yzh668Xz5BLW56sT0b5T41cPW31GGzS2W-5MVW1Sg5G92f6gP3W3Fghmf271BWDW7Dnpvh94kw22W8lVlqY8QrrNfW2NBD-61MDPsNW26J1bn5lnLvLW6jKn-X1R8RQxW11DdvP83JbfSW5rK4N934RpLNf6YCfB204",
+          "tags": ["Pentagon", "military AI", "Anthropic", "contracts"],
           "featured": false
         }
       ]
