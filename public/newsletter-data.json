@@ -1,9 +1,11 @@
 {
-  "issue": 5,
-  "publishedAt": "2026-05-12T21:00:00Z",
+  "issue": 6,
+  "publishedAt": "2026-05-15T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — May 12, 2026",
-  "sources": ["DeepLearning.AI"],
+  "tagline": "AI intelligence for Gauntlet AI — May 15, 2026",
+  "sources": [
+    "The Batch @ DeepLearning.AI"
+  ],
   "sections": [
     {
       "id": "models",
@@ -11,12 +13,29 @@
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "Transformers in Practice — New Course from AMD VP",
-          "summary": "DeepLearning.AI launches a new course taught by Sharon Zhou (VP of Engineering & AI at AMD) that dives deep into how transformers actually work. Learn token generation mechanics, why hallucinations happen, how attention and positional encoding function, and key optimization techniques (quantization, KV caching, flash attention) for GPU inference efficiency. Perfect for understanding both model behavior and system-level deployment decisions.",
-          "source": "DeepLearning.AI",
-          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VWNmg72npppVTW4DY2-J52X1FxW4qM5Xr5N-My5N6mkVqb3prCCW8wLKSR6lZ3mW8wLKSR6lZ3m",
-          "tags": ["transformers", "llm", "gpu-optimization", "training"],
+          "headline": "U.S. to Evaluate Upcoming AI Models Before Public Release",
+          "summary": "The White House announced a major policy shift: AI models will undergo national-security evaluation before deployment. NIST established the TRAINS task force to assess risks in cybersecurity, biosecurity, and chemical weapons. Leading AI companies agreed to submit models for testing prior to release—a reversal of earlier hands-off policy.",
+          "source": "The Batch @ DeepLearning.AI",
+          "url": "https://www.deeplearning.ai/the-batch/",
+          "tags": [
+            "policy",
+            "national-security",
+            "regulation"
+          ],
           "featured": true
+        },
+        {
+          "headline": "OpenAI Challenges Speech-to-Speech Leaders",
+          "summary": "OpenAI introduced three new audio models in its Realtime API. GPT-Realtime-2 is a speech-to-speech model with configurable reasoning effort. GPT-Realtime-Translate handles 70+ languages. GPT-Realtime-Whisper transcribes speech to text. GPT-Realtime-2 achieved competitive performance on voice reasoning benchmarks with tunable speed-vs-reasoning tradeoffs.",
+          "source": "The Batch @ DeepLearning.AI",
+          "url": "https://www.deeplearning.ai/the-batch/",
+          "tags": [
+            "audio",
+            "realtime",
+            "reasoning",
+            "speech"
+          ],
+          "featured": false
         }
       ]
     },
@@ -24,7 +43,21 @@
       "id": "agents",
       "emoji": "🖥️",
       "label": "Agents & Tools",
-      "items": []
+      "items": [
+        {
+          "headline": "Anthropic Limits Military Use of Claude; White House Rejects Restrictions",
+          "summary": "Anthropic tried to limit Claude's military use for surveillance and autonomous weapons. The White House rejected limitations and banned the model from military use entirely. The following month, Anthropic announced Claude Mythos Preview could autonomously exploit vulnerabilities in major OS and applications, shared with 50 organizations for defensive research.",
+          "source": "The Batch @ DeepLearning.AI",
+          "url": "https://www.deeplearning.ai/the-batch/",
+          "tags": [
+            "military",
+            "safety",
+            "policy",
+            "security"
+          ],
+          "featured": false
+        }
+      ]
     },
     {
       "id": "music",
@@ -37,13 +70,41 @@
       "id": "workforce",
       "emoji": "💼",
       "label": "Workforce & Business",
-      "items": []
+      "items": [
+        {
+          "headline": "China Nixing Meta-Manus Tie-Up",
+          "summary": "China's economic regulator blocked Meta's $2.5 billion acquisition of Manus, a Singapore-based AI startup founded in China. The blockade signals Beijing's authority over strategic tech developed by Chinese engineers. Chinese startups have rolled back plans to relocate abroad or seek international investment, creating a chilling effect on tech founder ambitions.",
+          "source": "The Batch @ DeepLearning.AI",
+          "url": "https://www.deeplearning.ai/the-batch/",
+          "tags": [
+            "geopolitics",
+            "investment",
+            "regulation",
+            "China"
+          ],
+          "featured": false
+        }
+      ]
     },
     {
       "id": "radar",
       "emoji": "📅",
       "label": "On the Radar",
-      "items": []
+      "items": [
+        {
+          "headline": "AI Mammogram Diagnosis Under Real-World Conditions",
+          "summary": "Google's breast-cancer detection AI achieved better sensitivity with fewer false positives than expert radiologists on retrospective data. A live test at UK clinics showed faster processing (17.7 min vs. 2+ days) with equivalent performance. While building trust remains key, AI can ease diagnostic workloads and improve outcomes through co-reader workflows.",
+          "source": "The Batch @ DeepLearning.AI",
+          "url": "https://www.deeplearning.ai/the-batch/",
+          "tags": [
+            "healthcare",
+            "medical-imaging",
+            "clinical",
+            "AI-assisted-diagnosis"
+          ],
+          "featured": false
+        }
+      ]
     }
   ]
 }
