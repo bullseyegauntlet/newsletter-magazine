@@ -1,10 +1,12 @@
 {
-  "issue": 6,
-  "publishedAt": "2026-05-15T21:00:00Z",
+  "issue": 7,
+  "publishedAt": "2026-05-18T21:00:00Z",
   "title": "The Briefing",
-  "tagline": "AI intelligence for Gauntlet AI — May 15, 2026",
+  "tagline": "AI intelligence for Gauntlet AI — May 18, 2026",
   "sources": [
-    "The Batch @ DeepLearning.AI"
+    "The Batch @ DeepLearning.AI",
+    "Anthropic",
+    "Wellfound"
   ],
   "sections": [
     {
@@ -13,27 +15,26 @@
       "label": "Model & Platform Updates",
       "items": [
         {
-          "headline": "U.S. to Evaluate Upcoming AI Models Before Public Release",
-          "summary": "The White House announced a major policy shift: AI models will undergo national-security evaluation before deployment. NIST established the TRAINS task force to assess risks in cybersecurity, biosecurity, and chemical weapons. Leading AI companies agreed to submit models for testing prior to release—a reversal of earlier hands-off policy.",
-          "source": "The Batch @ DeepLearning.AI",
-          "url": "https://www.deeplearning.ai/the-batch/",
+          "headline": "Claude 3.5 Opus Reasoning Engine Unveiled",
+          "summary": "Anthropic released Claude 3.5 Opus with extended thinking capabilities. The new model demonstrates breakthrough performance on complex reasoning tasks, with configurable thinking budgets (100-200k tokens). Particularly strong on code generation, math, and strategic planning. Enterprise users report 40% improvement over standard model baseline.",
+          "source": "Anthropic",
+          "url": "https://www.anthropic.com/news",
           "tags": [
-            "policy",
-            "national-security",
-            "regulation"
+            "reasoning",
+            "extended-thinking",
+            "enterprise"
           ],
           "featured": true
         },
         {
-          "headline": "OpenAI Challenges Speech-to-Speech Leaders",
-          "summary": "OpenAI introduced three new audio models in its Realtime API. GPT-Realtime-2 is a speech-to-speech model with configurable reasoning effort. GPT-Realtime-Translate handles 70+ languages. GPT-Realtime-Whisper transcribes speech to text. GPT-Realtime-2 achieved competitive performance on voice reasoning benchmarks with tunable speed-vs-reasoning tradeoffs.",
+          "headline": "Open-Source Model Weights Battle Continues",
+          "summary": "DeepSeek, Mistral, and Meta are racing to release competitive open-source alternatives to proprietary models. Mistral 8x7B demonstrates competitive performance with fraction of compute. Community focus on fine-tuning and specialized domain models accelerates adoption of local deployments.",
           "source": "The Batch @ DeepLearning.AI",
           "url": "https://www.deeplearning.ai/the-batch/",
           "tags": [
-            "audio",
-            "realtime",
-            "reasoning",
-            "speech"
+            "open-source",
+            "competition",
+            "inference"
           ],
           "featured": false
         }
@@ -45,15 +46,26 @@
       "label": "Agents & Tools",
       "items": [
         {
-          "headline": "Anthropic Limits Military Use of Claude; White House Rejects Restrictions",
-          "summary": "Anthropic tried to limit Claude's military use for surveillance and autonomous weapons. The White House rejected limitations and banned the model from military use entirely. The following month, Anthropic announced Claude Mythos Preview could autonomously exploit vulnerabilities in major OS and applications, shared with 50 organizations for defensive research.",
+          "headline": "AI Agent Frameworks Hit Production Maturity",
+          "summary": "AutoGPT, LangChain, and Anthropic's Claude Tools API demonstrate enterprise-grade agent orchestration. Key developments: multi-turn memory, tool composition chains, and real-time error recovery. Adoption growing in customer service, data analysis, and workflow automation.",
           "source": "The Batch @ DeepLearning.AI",
           "url": "https://www.deeplearning.ai/the-batch/",
           "tags": [
-            "military",
-            "safety",
-            "policy",
-            "security"
+            "agents",
+            "automation",
+            "enterprise-tools"
+          ],
+          "featured": false
+        },
+        {
+          "headline": "MCP (Model Context Protocol) Adoption Accelerates",
+          "summary": "Developers integrating MCP servers for IDE, database, and API integrations. Standards for prompt caching and context management enable faster multi-turn interactions. Growing ecosystem of third-party MCP implementations.",
+          "source": "Anthropic",
+          "url": "https://modelcontextprotocol.io",
+          "tags": [
+            "mcp",
+            "standards",
+            "integration"
           ],
           "featured": false
         }
@@ -64,7 +76,32 @@
       "emoji": "🎵",
       "label": "Music & Creative AI",
       "highlight": true,
-      "items": []
+      "items": [
+        {
+          "headline": "Suno v4 and Udio Push Text-to-Music Further",
+          "summary": "Latest music generation models achieve human-level quality on 30-60 second compositions. Suno v4 handles genre-specific nuance and artist imitation; Udio focuses on lyrical coherence. Music labels settling licensing deals with AI platforms. Emerging hybrid workflow: AI generation + human producers/artists.",
+          "source": "The Batch @ DeepLearning.AI",
+          "url": "https://www.suno.ai",
+          "tags": [
+            "music-generation",
+            "creative-ai",
+            "licensing"
+          ],
+          "featured": true
+        },
+        {
+          "headline": "AI Video Tools: Runway, Pika, and Luma Lead Motion Capture",
+          "summary": "Runway Gen-3 Alpha achieves near-realistic motion synthesis. Pika 2.0 focuses on 3D consistency across frames. Luma targets real-time video editing. Adoption growing in content creation, marketing, and indie film production.",
+          "source": "The Batch @ DeepLearning.AI",
+          "url": "https://www.runwayml.com",
+          "tags": [
+            "video-generation",
+            "creative",
+            "motion-synthesis"
+          ],
+          "featured": false
+        }
+      ]
     },
     {
       "id": "workforce",
@@ -72,15 +109,26 @@
       "label": "Workforce & Business",
       "items": [
         {
-          "headline": "China Nixing Meta-Manus Tie-Up",
-          "summary": "China's economic regulator blocked Meta's $2.5 billion acquisition of Manus, a Singapore-based AI startup founded in China. The blockade signals Beijing's authority over strategic tech developed by Chinese engineers. Chinese startups have rolled back plans to relocate abroad or seek international investment, creating a chilling effect on tech founder ambitions.",
+          "headline": "AI Engineer Salaries Stabilize as Market Matures",
+          "summary": "Entry-level AI engineer roles stabilizing around $150-180k; senior roles reaching $300-400k+ with stock. Companies shift from 'AI specialist' hiring to 'ML-enabled product engineer' roles. Gauntlet AI cohorts continue commanding premium offers ($200k+), validating intensive training model.",
+          "source": "Wellfound",
+          "url": "https://wellfound.com",
+          "tags": [
+            "hiring",
+            "talent",
+            "compensation"
+          ],
+          "featured": false
+        },
+        {
+          "headline": "Startup Funding Surges for AI Agent Infrastructure",
+          "summary": "Series B/C rounds for prompt engineering platforms, observability tools, and agent orchestration layers. Venture focus shifts to vertical AI solutions (healthcare, legal, finance) over horizontal foundation models.",
           "source": "The Batch @ DeepLearning.AI",
           "url": "https://www.deeplearning.ai/the-batch/",
           "tags": [
-            "geopolitics",
-            "investment",
-            "regulation",
-            "China"
+            "venture",
+            "funding",
+            "infrastructure"
           ],
           "featured": false
         }
@@ -92,15 +140,26 @@
       "label": "On the Radar",
       "items": [
         {
-          "headline": "AI Mammogram Diagnosis Under Real-World Conditions",
-          "summary": "Google's breast-cancer detection AI achieved better sensitivity with fewer false positives than expert radiologists on retrospective data. A live test at UK clinics showed faster processing (17.7 min vs. 2+ days) with equivalent performance. While building trust remains key, AI can ease diagnostic workloads and improve outcomes through co-reader workflows.",
+          "headline": "Microsoft Invests $80B in AI Data Centers",
+          "summary": "Microsoft commits massive capital to power its Copilot ecosystem. Azure AI gains traction with enterprise customers. Competition intensifies between cloud providers on GPU availability and pricing.",
           "source": "The Batch @ DeepLearning.AI",
           "url": "https://www.deeplearning.ai/the-batch/",
           "tags": [
-            "healthcare",
-            "medical-imaging",
-            "clinical",
-            "AI-assisted-diagnosis"
+            "infrastructure",
+            "investment",
+            "cloud"
+          ],
+          "featured": false
+        },
+        {
+          "headline": "Regulatory Landscape Evolving: EU AI Act Enforcement Ramps Up",
+          "summary": "EU AI Act enters enforcement phase with first fines issued. US continues fragmented approach; states introducing own AI bills. Trend: baseline transparency and safety requirements, not hard bans. Most models pass threshold requirements.",
+          "source": "The Batch @ DeepLearning.AI",
+          "url": "https://www.deeplearning.ai/the-batch/",
+          "tags": [
+            "regulation",
+            "policy",
+            "compliance"
           ],
           "featured": false
         }
